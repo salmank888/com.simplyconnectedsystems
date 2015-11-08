@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="leadtools.controls">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/leadtoolsDemos/libs/leadtools.controls.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

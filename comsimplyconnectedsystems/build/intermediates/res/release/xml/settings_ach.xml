@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+ 
+    <PreferenceCategory android:title="@string/pref_user_profileACH" >
+        <EditTextPreference
+                android:title="@string/pref_MID"
+                android:summary="@string/pref_MID_summary"
+                android:key="@string/pref_MID_key_ACH"/>
+   
+        <EditTextPreference
+                android:title="@string/pref_Processor"
+                android:summary="@string/pref_Processor_summary"
+                android:key="@string/pref_Processor_key_ACH"/>
+        
+        <EditTextPreference
+                android:title="@string/pref_Gateway_id"
+                android:summary="@string/pref_Gateway_id_summary"
+                android:key="@string/pref_Gateway_id_key_ACH"/>
+                
+        <EditTextPreference
+                android:title="@string/pref_Transaction_center_id"
+                android:summary="@string/pref_Transaction_center_id_summary"
+                android:key="@string/pref_Transaction_center_id_key_ACH"/>
+                        
+    </PreferenceCategory>
+     
+</PreferenceScreen><!-- From: file:/S:/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/src/main/res/xml/settings_ach.xml -->

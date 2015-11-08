@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageview_micr"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center_horizontal"
+            /> 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".4"
+                android:text="@string/micr_result_micrlinetext"
+                style="@style/TextViewStyle" />
+            
+            <TextView
+                android:id="@+id/txtview_micr_line_results"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                style="@style/TextViewStyle" />            
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".4"
+                android:text="@string/micr_result_auxiliary_on_us"
+                style="@style/TextViewStyle" />
+
+            <TextView
+                android:id="@+id/txtview_auxiliary_on_us"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                style="@style/TextViewStyle" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".4"
+                android:text="@string/micr_result_epc"
+                style="@style/TextViewStyle" />
+
+            <TextView
+                android:id="@+id/txtview_epc"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                style="@style/TextViewStyle" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".4"
+                android:text="@string/micr_result_routing"
+                style="@style/TextViewStyle" />
+
+            <TextView
+                android:id="@+id/txtview_routing"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                style="@style/TextViewStyle" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".4"
+                android:text="@string/micr_result_account"
+                style="@style/TextViewStyle" />
+
+            <TextView
+                android:id="@+id/txtview_account"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                style="@style/TextViewStyle" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".4"
+                android:text="@string/micr_result_check_number"
+                style="@style/TextViewStyle" />
+
+            <TextView
+                android:id="@+id/txtview_check_number"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                style="@style/TextViewStyle" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".4"
+                android:text="@string/micr_result_amount"
+                style="@style/TextViewStyle" />
+
+            <TextView
+                android:id="@+id/txtview_amount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".6"
+                style="@style/TextViewStyle" />
+
+        </LinearLayout>
+        <EditText
+            android:id="@+id/edittext_ocr_results"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            />
+    </LinearLayout>
+
+</ScrollView>

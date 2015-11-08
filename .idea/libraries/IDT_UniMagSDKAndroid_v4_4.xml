@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="IDT_UniMagSDKAndroid_v4.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/comsimplyconnectedsystems/libs/IDT_UniMagSDKAndroid_v4.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

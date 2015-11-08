@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="imageviewer">
+        <attr name="imageviewer_imageBitmap" format="reference"/>
+        <attr name="imageviewer_enableOwnerDraw" format="boolean"/>
+        <attr name="imageviewer_flip" format="boolean"/>
+        <attr name="imageviewer_reverse" format="boolean"/>
+        <attr name="imageviewer_resizeOnRotate" format="boolean"/>
+        <attr name="imageviewer_restrictHiddenScrollMode" format="boolean"/>
+        <attr name="imageviewer_useDpi" format="boolean"/>
+        <attr name="imageviewer_enableDpiCorrection" format="boolean"/>
+        <attr name="imageviewer_screenDpiX" format="integer"/>
+        <attr name="imageviewer_screenDpiY" format="integer"/>
+        <attr name="imageviewer_imageDpiX" format="integer"/>
+        <attr name="imageviewer_imageDpiY" format="integer"/>
+        <attr name="imageviewer_rotateAngle" format="float"/>
+        <attr name="imageviewer_scaleFactor" format="float"/>
+        <attr name="imageviewer_aspectRatioCorrection" format="float"/>
+        <attr name="imageviewer_newImageResetOptions">
+            <flag name="none" value="0x0000" />
+            <flag name="scroll_offset" value="0x0001" />
+            <flag name="scale_factor" value="0x0002" />
+            <flag name="size_mode" value="0x0004" />
+            <flag name="reverse" value="0x0008" />
+            <flag name="flip" value="0x0010" />
+            <flag name="rotate_angle" value="0x0020" />
+            <flag name="aspect_ratio_correction" value="0x0080" />
+            <flag name="color_filter" value="0x0100" />
+            <flag name="all" value="0x0fff" />
+        </attr>
+        <attr name="imageviewer_scrollMode">
+            <enum name="auto" value="0" />
+            <enum name="hidden" value="1" />
+            <enum name="disabled" value="2" />
+        </attr>        
+        <attr name="imageviewer_sizeMode">
+            <enum name="none" value="0" />
+            <enum name="actual_size" value="1" />
+            <enum name="fit" value="2" />
+            <enum name="fit_always" value="3" />
+            <enum name="fit_width" value="4" />
+            <enum name="fit_height" value="5" />
+            <enum name="stretch" value="6" />
+        </attr>
+        <attr name="imageviewer_horizontalAlignment">
+            <enum name="near" value="0" />
+            <enum name="center" value="1" />
+            <enum name="far" value="2" />
+        </attr>        
+        <attr name="imageviewer_verticalAlignment">
+            <enum name="near" value="0" />
+            <enum name="center" value="1" />
+            <enum name="far" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>

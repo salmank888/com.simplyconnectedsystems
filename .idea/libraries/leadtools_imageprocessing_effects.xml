@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="leadtools.imageprocessing.effects">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/comsimplyconnectedsystems/libs/leadtools.imageprocessing.effects.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

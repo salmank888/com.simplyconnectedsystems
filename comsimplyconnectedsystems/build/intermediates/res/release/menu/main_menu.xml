@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_settingsCC"
+        android:title="@string/menu_settings_CC"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+        <item android:id="@+id/menu_settingsACH"
+        android:title="@string/menu_settings_ACH"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+     <item android:id="@+id/menu_close"
+        android:title="@string/menu_close"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+</menu>
+<!-- From: file:/S:/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/src/main/res/menu/main_menu.xml -->

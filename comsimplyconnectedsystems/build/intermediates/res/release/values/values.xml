@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/S:/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="account_type">
+        <item>C</item>
+        <item>S</item>
+    </string-array>
+    <!-- From: file:/S:/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/src/main/res/values/arrays.xml -->
+    <eat-comment/>
+    <array name="check_credit_descriptions">
+        <item>check</item>
+        <item>@null</item>
+        <item>credit</item>
+        <item>@null</item>
+    </array>
+    <array name="check_credit_direction_descriptions">
+        <item>right</item>
+        <item>@null</item>
+        <item>left</item>
+        <item>@null</item>
+    </array>
+    <array name="check_credit_drawables">
+        <item>@drawable/item_credit</item>
+        <item>@null</item>
+        <item>@drawable/item_check</item>
+        <item>@null</item>
+    </array>
+    <array name="check_only_descriptions">
+        <item>@null</item>
+        <item>@null</item>
+        <item>check</item>
+        <item>@null</item>
+    </array>
+    <array name="check_only_direction_descriptions">
+        <item>@null</item>
+        <item>@null</item>
+        <item>left</item>
+        <item>@null</item>
+    </array>
+    <array name="check_only_drawables">
+        <item>@null</item>
+        <item>@null</item>
+        <item>@drawable/item_check</item>
+        <item>@null</item>
+    </array>
+    <array name="credit_only_descriptions">
+        <item>credit</item>
+        <item>@null</item>
+        <item>@null</item>
+        <item>@null</item>
+    </array>
+    <array name="credit_only_direction_descriptions">
+        <item>right</item>
+        <item>@null</item>
+        <item>@null</item>
+        <item>@null</item>
+    </array>
+    <array name="credit_only_drawables">
+        <item>@drawable/item_credit</item>
+        <item>@null</item>
+        <item>@null</item>
+        <item>@null</item>
+    </array>
+    <!-- From: file:/S:/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="frequency">
+       <item>daily</item>
+       <item>weekly</item>
+       <item>biweekly</item>
+       <item>monthly</item>
+       <item>bimonthly</item>
+       <item>quarterly</item>
+       <item>semiannually</item>
+       <item>annually</item>
+   </string-array>
+    <!-- From: file:/S:/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/src/main/res/values/arrays.xml -->
+    <eat-comment/>
+    <string-array name="pref_select_transaction_type_items">
+        <item>Credit Card and Check</item>
+        <item>Credit Card</item>
+        <item>Check</item>
+    </string-array>
+    <!-- From: file:/S:/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="states">
+
+    <item>AL</item>
+
+    <item>AK</item>
+
+    <item>AZ</item>
+
+    <item>AR</item>
+
+    <item>CA</item>
+
+    <item>CO</item>
+
+    <item>CT</item>
+
+    <item>DE</item>
+
+    <item>DC</item>
+
+    <item>FL</item>
+
+    <item>GA</item>
+
+    <item>HI</item>
+
+    <item>ID</item>
+
+    <item>IL</item>
+
+    <item>IN</item>
+
+    <item>IA</item>
+
+    <item>KS</item>
+
+    <item>KY</item>
+
+    <item>LA</item>
+
+    <item>ME</item>
+
+    <item>MD</item>
+
+    <item>MA</item>
+
+    <item>MI</item>
+
+    <item>MN</item>
+
+    <item>MS</item>
+
+    <item>MO</item>
+
+    <item>MT</item>
+
+    <item>NE</item>
+
+    <item>NV</item>
+
+    <item>NH</item>
+
+    <item>NJ</item>
+
+    <item>NM</item>
+
+    <item>NY</item>
+
+    <item>NC</item>
+
+    <item>ND</item>
+
+    <item>OH</item>
+
+    <item>OK</item>
+
+    <item>OR</item>
+
+    <item>PA</item>
+
+    <item>RI</item>
+
+    <item>SC</item>
+
+    <item>SD</item>
+
+    <item>TN</item>
+
+    <item>TX</item>
+
+    <item>UT</item>
+
+    <item>VT</item>
+
+    <item>VA</item>
+
+    <item>WA</item>
+
+    <item>WV</item>
+
+    <item>WI</item>
+
+    <item>WY</item>
+
+</string-array>
+    <!-- From: file:/S:/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="article_title">#3399FF</color>
+    <color name="articlecolor">#3399FF</color>
+    <color name="black">#000000</color>
+    <color name="blue">#0066cc</color>
+    <color name="blue2">#0088ed</color>
+    <color name="blueback">#99FFFF</color>
+    <color name="cachecolor">#8ad0e8</color>
+    <color name="date_color">#999999</color>
+    <color name="dkgray">#333333</color>
+    <color name="gold">#e6b121</color>
+    <color name="gray">#999999</color>
+    <color name="ltblue">#00ccfe</color>
+    <color name="ltgray">#dddddd</color>
+    <color name="ltgray2">#cccccc</color>
+    <color name="orange">#ff5500</color>
+    <color name="radio_button_selected_color">#ff33b5e5</color>
+    <color name="radio_button_unselected_color">@android:color/transparent</color>
+    <color name="transparent">#00000000</color>
+    <color name="transwhite">#aaffffff</color>
+    <color name="white">#ffffff</color>
+    <declare-styleable name="AnalogClock"><attr format="dimension" name="jewelRadius"/><attr format="dimension" name="jewelOffset"/><attr format="color" name="jewelColor"/></declare-styleable>
+    <declare-styleable name="GlowPadView"><attr name="android:gravity"/><attr format="reference" name="targetDrawables"/><attr format="reference" name="targetDescriptions"/><attr format="reference" name="directionDescriptions"/><attr format="reference" name="handleDrawable"/><attr format="reference" name="outerRingDrawable"/><attr format="reference" name="pointDrawable"/><attr format="dimension" name="innerRadius"/><attr format="dimension" name="outerRadius"/><attr format="dimension" name="glowRadius"/><attr format="integer" name="vibrationDuration"/><attr format="dimension" name="snapMargin"/><attr format="integer" name="feedbackCount"/><attr format="boolean" name="alwaysTrackFinger"/></declare-styleable>
+    <!-- From: file:/S:/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="glowpadview_glow_radius">75.0dp</dimen>
+    <dimen name="glowpadview_inner_radius">15.0dp</dimen>
+    <dimen name="glowpadview_margin_bottom">-50.0dp</dimen>
+    <dimen name="glowpadview_margin_right">0.0dp</dimen>
+    <dimen name="glowpadview_outerring_diameter">270.0dp</dimen>
+    <dimen name="glowpadview_snap_margin">40.0dp</dimen>
+    <dimen name="glowpadview_target_placement_radius">135.0dp</dimen>
+    <dimen name="radio_button_conner_radius">5dp</dimen>
+    <!-- From: file:/S:/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="_void">Void</string>
+    <string name="aba_id">Routing Number</string>
+    <string name="account_type_id">Account Type</string>
+    <string name="ach_name_id">ACH Name</string>
+    <string name="app_name">Simply Connected Systems</string>
+    <string name="approved_id">Approved</string>
+    <string name="async_mode">Async mode</string>
+    <string name="authorization_number">Authorization Number</string>
+    <string name="auto_disable">Auto disable</string>
+    <string name="cancel">Cancel</string>
+    <string name="cant_read_folder">folder can\'t be read!</string>
+    <string name="check_health">Check health</string>
+    <string name="checking">Checking</string>
+    <string name="city_id">City</string>
+    <string name="claim">Claim</string>
+    <string name="clear">Clear</string>
+    <string name="clear_fields">Clear fields</string>
+    <string name="close">Close</string>
+    <string name="close_date_id">Close Date (MM/DD/YYYY)</string>
+    <string name="company_name">Simply Connected Systems</string>
+    <string name="create">Save</string>
+    <string name="credit_card_exp_date">Credit Card Exp Date</string>
+    <string name="credit_card_number">Credit Card Number</string>
+    <string name="cvv_number">cvv Number (optional)</string>
+    <string name="data_event_enabled">Data event enabled</string>
+    <string name="dda_id">Direct Deposit Account</string>
+    <string name="device_enabled">Device enabled</string>
+    <string name="device_messages">Device messages: </string>
+    <string name="email_id">Email Address (optional)</string>
+    <string name="enter_aba_id">aba</string>
+    <string name="enter_account_type_id">ach account type</string>
+    <string name="enter_ach_name_id">ach name</string>
+    <string name="enter_amount">$ amount</string>
+    <string name="enter_city_id">city</string>
+    <string name="enter_close_date_id">close date</string>
+    <string name="enter_credit_card_number">credit card number</string>
+    <string name="enter_cvv">cvv</string>
+    <string name="enter_dda_id">dda</string>
+    <string name="enter_email_id">email</string>
+    <string name="enter_exp_date">exp date</string>
+    <string name="enter_order_id">order id</string>
+    <string name="enter_owner_name_id">owner name</string>
+    <string name="enter_phone_id">phone</string>
+    <string name="enter_recurring_end_date_id">recurring end date</string>
+    <string name="enter_recurring_id">recurring</string>
+    <string name="enter_recurring_start_date_id">recurring start date</string>
+    <string name="enter_recurring_type_id">recurring type</string>
+    <string name="enter_reference_number_id">reference number</string>
+    <string name="enter_state_id">state</string>
+    <string name="enter_street1_id">street line 1</string>
+    <string name="enter_street2_id">street line 2</string>
+    <string name="enter_zip_id">zip</string>
+    <string name="file_name">File name:</string>
+    <string name="image_desc">ID Tech Logo</string>
+    <string name="info">Info</string>
+    <string name="location">Location</string>
+    <string name="logical_name_colon">Logical name: </string>
+    <string name="menu_close">Close</string>
+    <string name="menu_settings_ACH">ACH Settings</string>
+    <string name="menu_settings_CC">CC Settings</string>
+    <string name="msr">MSR</string>
+    <string name="nnew">New</string>
+    <string name="no_data">No Data</string>
+    <string name="ok">OK</string>
+    <string name="open">Open</string>
+    <string name="order_id">Order Id</string>
+    <string name="order_id2">Order Id</string>
+    <string name="owner_name_id">Owner Name</string>
+    <string name="phone_id">Phone Numer</string>
+    <string name="pref_Gateway_id">Set GatewayID</string>
+    <string name="pref_Gateway_id_key">prefGatewayIDKey</string>
+    <string name="pref_Gateway_id_key_ACH">prefGatewayIDKeyACH</string>
+    <string name="pref_Gateway_id_summary">Set the gateway id.</string>
+    <string name="pref_MID">Set MID</string>
+    <string name="pref_MID_key">prefMIDKey</string>
+    <string name="pref_MID_key_ACH">prefMIDKeyACH</string>
+    <string name="pref_MID_summary">Set the MID.</string>
+    <string name="pref_Processor">Set Processor</string>
+    <string name="pref_Processor_key">prefProcessorKey</string>
+    <string name="pref_Processor_key_ACH">prefProcessorKeyACH</string>
+    <string name="pref_Processor_summary">Set the processor.</string>
+    <string name="pref_TID">Set TID</string>
+    <string name="pref_TID_key">prefTIDKey</string>
+    <string name="pref_TID_summary">Set the TID.</string>
+    <string name="pref_Transaction_center_id">Set TransactionCenterID.</string>
+    <string name="pref_Transaction_center_id_key">prefTransactionCenterID</string>
+    <string name="pref_Transaction_center_id_key_ACH">prefTransactionCenterIDACH</string>
+    <string name="pref_Transaction_center_id_summary">Set the transaction center id.</string>
+    <string name="pref_update_setting">Update Settings</string>
+    <string name="pref_user_profileACH">User Profile (ACH)</string>
+    <string name="pref_user_profileCC">User Profile (CC)</string>
+    <string name="recurring">Recurring</string>
+    <string name="recurring_end_date_id">End Date (MM/DD/YYYY)</string>
+    <string name="recurring_id">Recurring Numer</string>
+    <string name="recurring_start_date_id">Start Date (MM/DD/YYYY)</string>
+    <string name="recurring_type_id">Recurring Type</string>
+    <string name="reference_number_id">Reference Number/Transaction Number</string>
+    <string name="refresh_fields">Refresh fields</string>
+    <string name="release">Release</string>
+    <string name="sale">Sale</string>
+    <string name="sale_amount">Sale Amount $</string>
+    <string name="save">Save</string>
+    <string name="saving">Saving</string>
+    <string name="scan_card">Scan Card</string>
+    <string name="select">Select</string>
+    <string name="signBelow">Please Sign below ...</string>
+    <string name="slogan">Mobile Credit Card Processing</string>
+    <string name="start_transaction">Start Transaction</string>
+    <string name="state_id">State</string>
+    <string name="status">Status</string>
+    <string name="street1_id">Street Address</string>
+    <string name="street2_id">Street Address (optional)</string>
+    <string name="submit">Submit</string>
+    <string name="swipe_card">Swipe Card(AJR)</string>
+    <string name="swipe_card_msr">Swipe Card(MSR)</string>
+    <string name="track1_data">Track 1 data: </string>
+    <string name="track2_data">Track 2 data: </string>
+    <string name="track3_data">Track 3 data: </string>
+    <string name="transaction_date">Transaction Date</string>
+    <string name="transaction_id">Transaction Id</string>
+    <string name="zip_id">Zip</string>
+    <!-- From: file:/S:/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="EditTextStyle">
+       <item name="android:layout_marginTop">5dp</item>
+       <item name="android:padding">6dp</item>
+       <item name="android:textSize">18sp</item>
+       <item name="android:background">@color/transwhite</item>
+    </style>
+    <style name="LabelTextStyle">
+       <item name="android:textStyle">bold</item>
+       <item name="android:layout_marginTop">10dp</item>
+       <item name="android:textSize">18sp</item>
+     </style>
+    <style name="LabelTextStyleLight">
+       <item name="android:layout_marginTop">10dp</item>
+       <item name="android:textSize">18sp</item>
+      </style>
+    <style name="RadioButton">
+        <item name="android:textColor">@drawable/button_text_color</item>
+        <item name="android:minHeight">33dp</item>
+        <item name="android:minWidth">70dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+</resources>

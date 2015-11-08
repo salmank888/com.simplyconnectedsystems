@@ -1,0 +1,64 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="EditTextStyle">
+       <item name="android:layout_marginTop">5dp</item>
+       <item name="android:padding">6dp</item>
+       <item name="android:textSize">18sp</item>
+       <item name="android:background">@color/transwhite</item>
+    </style>
+    
+     <style name="LabelTextStyle">
+       <item name="android:textStyle">bold</item>
+       <item name="android:layout_marginTop">10dp</item>
+       <item name="android:textSize">18sp</item>
+     </style>
+    
+      <style name="LabelTextStyleLight">
+       <item name="android:layout_marginTop">10dp</item>
+       <item name="android:textSize">18sp</item>
+      </style>
+    
+
+          <style name="RadioButton">
+        <item name="android:textColor">@drawable/button_text_color</item>
+        <item name="android:minHeight">33dp</item>
+        <item name="android:minWidth">70dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+
+    <style name="TextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="GroupHeaderTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@color/black</item>
+    </style>
+</resources>

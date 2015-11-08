@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="leadtools.forms.ocr">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/comsimplyconnectedsystems/libs/leadtools.forms.ocr.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

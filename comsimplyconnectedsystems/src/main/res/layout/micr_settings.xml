@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" >
+
+        <LinearLayout
+            android:id="@+id/linearlayout_video_extractionmode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1" >
+
+            <TextView
+                style="@style/TextViewStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:text="@string/settings_video_micr_extraction_mode" />
+
+            <Spinner
+                android:id="@+id/spnr_video_micr_extraction_mode"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".7"
+                android:entries="@array/settings_micr_extraction_values"
+                android:prompt="@string/settings_video_micr_extraction_mode" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout_picture_extractionmode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linearlayout_video_extractionmode"
+            android:weightSum="1" >
+
+            <TextView
+                style="@style/TextViewStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:text="@string/settings_picture_micr_extraction_mode" />
+
+            <Spinner
+                android:id="@+id/spnr_picture_micr_extraction_mode"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".7"
+                android:entries="@array/settings_micr_extraction_values"
+                android:prompt="@string/settings_picture_micr_extraction_mode" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout_strict_mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linearlayout_picture_extractionmode"
+            android:paddingTop="10dp"
+            android:weightSum="1" >
+
+            <TextView
+                style="@style/TextViewStyle"
+                android:layout_weight=".3"
+                android:text="@string/settings_strict_mode" />
+
+            <TextView
+                style="@style/TextViewStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".7"
+                android:text="@string/settings_strict_mode_note" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linearlayout_strict_mode"
+            android:paddingTop="10dp"
+            android:weightSum="1" >
+
+            <TextView
+                style="@style/TextViewStyle"
+                android:layout_weight=".3"
+                android:text="@string/settings_relaxed_mode" />
+
+            <TextView
+                style="@style/TextViewStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".7"
+                android:text="@string/settings_relaxed_mode_note" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

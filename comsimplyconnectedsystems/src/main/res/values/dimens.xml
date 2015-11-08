@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="glowpadview_outerring_diameter">270.0dp</dimen>
+    <dimen name="glowpadview_target_placement_radius">135.0dp</dimen>
+    <dimen name="glowpadview_glow_radius">75.0dp</dimen>
+    <dimen name="glowpadview_snap_margin">40.0dp</dimen>
+    <dimen name="glowpadview_inner_radius">15.0dp</dimen>
+    <dimen name="glowpadview_margin_bottom">-50.0dp</dimen>
+    <dimen name="glowpadview_margin_right">0.0dp</dimen>
+    
+        <dimen name="radio_button_conner_radius">5dp</dimen>
+    
+</resources>

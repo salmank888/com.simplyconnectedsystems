@@ -1,0 +1,33 @@
+apply plugin: 'com.android.application'
+
+android {
+
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+    defaultConfig {
+        applicationId "com.sk.simplyconnectedsystems"
+        minSdkVersion 8
+        targetSdkVersion 17
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile project(':glowPadView')
+    compile project(':leadtoolsDemos')
+    compile files('libs/bixolon_printer.jar')
+    compile files('libs/card.io.jar')
+    compile files('libs/IDT_UniMagSDKAndroid_v4.4.jar')
+    compile files('libs/jpos114-controls.jar')
+    compile files('libs/xerces.jar')
+    compile files('libs/leadtools.forms.ocr.jar')
+    compile files('libs/leadtools.imageprocessing.color.jar')
+    compile files('libs/leadtools.imageprocessing.core.jar')
+    compile files('libs/leadtools.imageprocessing.effects.jar')
+    compile files('libs/butterknife-7.0.1.jar')
+}

@@ -1,0 +1,603 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/radial_background2"
+    tools:context=".SaleActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/card_background" />
+
+<ScrollView
+    android:id="@+id/scrollViewSaleActivity"
+    android:layout_marginTop="50dp"
+    android:layout_marginBottom="60dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:layout_marginBottom="20dp" >
+    
+    
+    <com.simplyconnectedsystems.utility.SegmentedGroup
+    android:id="@+id/segmented2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:padding="10dp">
+
+    <RadioButton
+        android:id="@+id/btnSale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sale"
+        style="@style/RadioButton"
+        android:padding="5dp" />
+
+    <RadioButton
+        android:id="@+id/btnVoid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_void"
+        style="@style/RadioButton"
+        android:padding="5dp" />
+    
+        <RadioButton
+        android:id="@+id/btnRecurring"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/recurring"
+        style="@style/RadioButton"
+        android:padding="5dp" />
+</com.simplyconnectedsystems.utility.SegmentedGroup>
+
+    <TextView
+        android:id="@+id/txtSaleAmountLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/LabelTextStyleLight"
+        android:text="@string/sale_amount"
+        />
+
+    <EditText
+        android:id="@+id/txtSaleAmount"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        style="@style/EditTextStyle"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:inputType="numberDecimal" >
+        <requestFocus/>
+       </EditText>
+
+    <TextView
+        android:id="@+id/txtCreditCardNumberLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/LabelTextStyleLight"
+        android:text="@string/credit_card_number"
+        android:visibility="gone"
+        />
+
+  	<EditText
+  	    android:id="@+id/txtCreditCardNumber"
+  	    android:layout_width="match_parent"
+  	    android:layout_height="wrap_content"
+  	    style="@style/EditTextStyle"
+  	    android:maxLength="16"
+  	    android:hint="@string/enter_credit_card_number"
+  	    android:inputType="number"
+  	    android:visibility="gone"
+  	     >
+  
+    </EditText>
+
+    <TextView
+        android:id="@+id/txtCreditCardExpirationLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         style="@style/LabelTextStyleLight"
+        android:text="@string/credit_card_exp_date"
+        android:visibility="gone"
+          />
+    <EditText
+        android:id="@+id/txtCreditCardExpiration"
+        style="@style/EditTextStyle"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_exp_date"
+        android:inputType="number"
+        android:maxLength="4"
+        android:textSize="18sp"
+        android:visibility="gone"
+          />
+
+    <TextView
+        android:id="@+id/txtCCVNumberLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/LabelTextStyleLight"
+        android:text="@string/cvv_number"
+        android:visibility="gone"
+          />
+
+    <EditText
+        android:id="@+id/txtCCVNumber"
+        style="@style/EditTextStyle"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_cvv"
+        android:inputType="number"
+        android:maxLength="5" 
+        android:visibility="gone"
+          />
+    
+    <TextView
+        android:id="@+id/txtOrderIdLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/LabelTextStyleLight"
+        android:text="@string/order_id"
+        />
+
+    <EditText
+        android:id="@+id/txtOrderId"
+        style="@style/EditTextStyle"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/enter_order_id"
+        />
+    
+        <TextView
+        android:id="@+id/txtABALabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/LabelTextStyleLight"
+        android:text="@string/aba_id"
+        android:visibility="gone"
+          />
+
+    <EditText
+        android:id="@+id/txtABAId"
+        style="@style/EditTextStyle"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/enter_aba_id"
+        android:maxLength="10"
+        android:visibility="gone"
+          />
+
+            <TextView
+        android:id="@+id/txtDDALabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/LabelTextStyleLight"
+        android:text="@string/dda_id"
+        android:visibility="gone"
+          />
+
+    <EditText
+        android:id="@+id/txtDDAId"
+        style="@style/EditTextStyle"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/enter_dda_id"
+        android:maxLength="12"
+        android:visibility="gone"
+          />
+
+    <TextView
+        android:id="@+id/txtChequeNumLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/LabelTextStyleLight"
+        android:text="@string/cheque_num_id"
+        android:visibility="gone"
+        />
+
+    <EditText
+        android:id="@+id/txtChequeNumId"
+        style="@style/EditTextStyle"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/enter_cheque_num_id"
+        android:maxLength="10"
+        android:visibility="gone"
+        />
+                <TextView
+        android:id="@+id/txtAccountTypeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/LabelTextStyleLight"
+        android:text="@string/account_type_id"
+        android:visibility="gone"
+          />
+
+    <RadioGroup android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/txtAccountTypeId" android:orientation="horizontal" android:layout_margin="8dp" android:visibility="gone">
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:checked="false" android:text="@string/checking" android:id="@+id/radio_button_current" android:paddingLeft="4dp" android:button="@drawable/custom_radio_button_selector"/>
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/saving" android:id="@+id/radio_button_saving"  android:layout_marginLeft="8dp" android:paddingLeft="4dp" android:button="@drawable/custom_radio_button_selector"/>
+
+</RadioGroup>
+                   <TextView
+        android:id="@+id/txtCloseDateLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/LabelTextStyleLight"
+        android:text="@string/close_date_id"
+        android:visibility="gone"
+          />
+
+    <EditText
+        android:id="@+id/txtCloseDateId"
+        style="@style/EditTextStyle"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/enter_close_date_id"
+        android:maxLength="10"
+        android:visibility="gone"
+          />
+    
+                       <TextView
+        android:id="@+id/txtACHNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/LabelTextStyleLight"
+        android:text="@string/ach_name_id"
+        android:visibility="gone"
+          />
+
+    <EditText
+        android:id="@+id/txtACHNameId"
+        style="@style/EditTextStyle"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/enter_ach_name_id"
+        android:visibility="gone"
+          />
+    
+                           <TextView
+        android:id="@+id/txtOwnerNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/LabelTextStyleLight"
+        android:text="@string/owner_name_id"
+        android:visibility="gone"
+          />
+
+    <EditText
+        android:id="@+id/txtOwnerNameId"
+        style="@style/EditTextStyle"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/enter_owner_name_id"
+        android:maxLength="25"
+        android:visibility="gone"
+          />
+    
+                               <TextView
+        android:id="@+id/txtStreet1Label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/LabelTextStyleLight"
+        android:text="@string/street1_id"
+        android:visibility="gone"
+          />
+
+    <EditText
+        android:id="@+id/txtStreet1Id"
+        style="@style/EditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/enter_street1_id"
+        android:visibility="gone"
+          />
+    
+                                   <TextView
+        android:id="@+id/txtStreet2Label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/LabelTextStyleLight"
+        android:text="@string/street2_id"
+        android:visibility="gone"
+          />
+
+    <EditText
+        android:id="@+id/txtStreet2Id"
+        style="@style/EditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/enter_street2_id"
+        android:visibility="gone"
+          />
+    
+     <TextView
+        android:id="@+id/txtCityLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/LabelTextStyleLight"
+        android:text="@string/city_id"
+        android:visibility="gone"
+          />
+
+    <EditText
+        android:id="@+id/txtCityId"
+        style="@style/EditTextStyle"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_city_id"
+        android:maxLength="20"
+        android:visibility="gone"
+          />
+    
+        <TextView
+        android:id="@+id/txtStateLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/LabelTextStyleLight"
+        android:text="@string/state_id"
+        android:visibility="gone"
+          />
+
+       <Spinner
+        android:id="@+id/txtStateId"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:background="@color/transwhite"
+        android:visibility="gone"
+           />
+    
+         <TextView
+        android:id="@+id/txtZipLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/LabelTextStyleLight"
+        android:text="@string/zip_id"
+        android:visibility="gone"
+          />
+
+    <EditText
+        android:id="@+id/txtZipId"
+        style="@style/EditTextStyle"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/enter_zip_id"
+        android:maxLength="10" 
+        android:visibility="gone"
+          />
+    
+         <TextView
+        android:id="@+id/txtEmailLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/LabelTextStyleLight"
+        android:text="@string/email_id"
+        android:visibility="gone"
+          />
+
+    <EditText
+        android:id="@+id/txtEmailId"
+        style="@style/EditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="@string/enter_email_id"
+        android:visibility="gone"
+          />
+    
+             <TextView
+        android:id="@+id/txtPhoneLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/LabelTextStyleLight"
+        android:text="@string/phone_id"
+        android:visibility="gone"
+          />
+
+    <EditText
+        android:id="@+id/txtPhoneId"
+        style="@style/EditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="@string/enter_phone_id"
+        android:maxLength="12" 
+        android:visibility="gone"
+          />
+    
+                 <TextView
+        android:id="@+id/txtRecurringLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/LabelTextStyleLight"
+        android:text="@string/recurring_id"
+        android:visibility="gone"
+          />
+
+    <EditText
+        android:id="@+id/txtRecurringId"
+        style="@style/EditTextStyle"
+		android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/enter_recurring_id"
+        android:maxLength="2" 
+        android:visibility="gone"
+          />
+    
+                     <TextView
+        android:id="@+id/txtRecurringStartDateLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/LabelTextStyleLight"
+        android:text="@string/recurring_start_date_id"
+        android:visibility="gone"
+          />
+
+    <EditText
+        android:id="@+id/txtRecurringStartDateId"
+        style="@style/EditTextStyle"
+		android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/enter_recurring_start_date_id"
+        android:maxLength="10"
+        android:visibility="gone"
+          />
+    
+     <TextView
+        android:id="@+id/txtRecurringTypeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/LabelTextStyleLight"
+        android:text="@string/recurring_type_id"
+        android:visibility="gone"
+          />
+
+    <Spinner
+        android:id="@+id/txtRecurringTypeId"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:background="@color/transwhite"
+        android:visibility="gone"
+
+        />
+                        <TextView
+        android:id="@+id/txtRecurringEndDateLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/LabelTextStyleLight"
+        android:text="@string/recurring_end_date_id"
+        android:visibility="gone"
+          />
+
+    <EditText
+        android:id="@+id/txtRecurringEndDateId"
+        style="@style/EditTextStyle"
+		android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/enter_recurring_end_date_id"
+        android:maxLength="10"
+        android:visibility="gone"
+          />
+    
+                            <TextView
+        android:id="@+id/txtReferenceNumberLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/LabelTextStyleLight"
+        android:text="@string/reference_number_id"
+        android:visibility="gone"
+          />
+
+    <EditText
+        android:id="@+id/txtReferenceNumberId"
+        style="@style/EditTextStyle"
+		android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/enter_reference_number_id"
+        android:maxLength="10"
+        android:visibility="gone"
+          />
+    
+    </LinearLayout>
+    
+</ScrollView>
+
+<LinearLayout
+    android:id="@+id/layoutPaymentBtns"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/ltgray"
+    style="?android:attr/buttonBarStyle"
+    android:orientation="horizontal"
+    android:layout_above="@+id/layoutSwipeBtn">
+
+    <Button
+     android:id="@+id/btnSwipeCardAJR"
+     style="?android:attr/buttonBarButtonStyle"
+     android:layout_width="0dip"
+     android:layout_weight="0.5"
+     android:layout_height="wrap_content"
+     android:text="@string/swipe_card"
+     android:visibility="gone"
+      />
+    
+     	    <Button
+     android:id="@+id/btnScanCard"
+     style="?android:attr/buttonBarButtonStyle"
+     android:layout_width="0dip"
+     android:layout_weight="0.25"
+     android:layout_height="wrap_content"
+     android:text="@string/scan_card"
+     android:visibility="gone"
+      />
+     	    
+ 	<Button
+        android:id="@+id/btnSwipeCardMSR"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="0dip"
+        android:layout_weight="0.5"      
+        android:layout_height="wrap_content"
+        android:text="@string/swipe_card_msr"
+        android:visibility="gone"
+         />
+ 	
+
+ 
+ </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   	android:id="@+id/layoutSwipeBtn"
+    android:layout_alignParentBottom="true"
+    android:background="@color/ltgray"
+    style="?android:attr/buttonBarStyle"
+    android:orientation="horizontal">
+
+
+     	    
+ 	<Button
+        android:id="@+id/btnSubmit"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="0dip"
+        android:layout_weight="1"      
+        android:layout_height="wrap_content"
+        android:text="@string/submit" />
+
+    <Button
+        android:id="@+id/btnReadChecque"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="@string/readCheque"
+        android:visibility="gone"/>
+ 
+ </LinearLayout>
+</RelativeLayout>

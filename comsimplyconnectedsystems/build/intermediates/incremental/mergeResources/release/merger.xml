@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="21.0.3"><source path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\res"/></dataSet><dataSet config="unspecified"><source path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\build\intermediates\exploded-aar\com.simplyconnectedsystems\glowPadView\unspecified\res"><file name="ic_launcher" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\build\intermediates\exploded-aar\com.simplyconnectedsystems\glowPadView\unspecified\res\drawable-xhdpi-v4\ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_lockscreen_glowdot" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\build\intermediates\exploded-aar\com.simplyconnectedsystems\glowPadView\unspecified\res\drawable-xhdpi-v4\ic_lockscreen_glowdot.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_lockscreen_handle_normal" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\build\intermediates\exploded-aar\com.simplyconnectedsystems\glowPadView\unspecified\res\drawable-xhdpi-v4\ic_lockscreen_handle_normal.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_lockscreen_handle_pressed" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\build\intermediates\exploded-aar\com.simplyconnectedsystems\glowPadView\unspecified\res\drawable-xhdpi-v4\ic_lockscreen_handle_pressed.png" qualifiers="xhdpi-v4" type="drawable"/><file path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\build\intermediates\exploded-aar\com.simplyconnectedsystems\glowPadView\unspecified\res\values\values.xml" qualifiers=""><dimen name="glowpadview_margin_right">0dip</dimen><declare-styleable name="AnalogClock"><attr format="dimension" name="jewelRadius"/><attr format="dimension" name="jewelOffset"/><attr format="color" name="jewelColor"/></declare-styleable><dimen name="glowpadview_glow_radius">75dip</dimen><dimen name="glowpadview_snap_margin">40dip</dimen><dimen name="glowpadview_target_placement_radius">135dip</dimen><dimen name="glowpadview_outerring_diameter">270dip</dimen><dimen name="glowpadview_inner_radius">15dip</dimen><string name="app_name">GlowPadView</string><dimen name="glowpadview_margin_bottom">-64dip</dimen><declare-styleable name="GlowPadView"><attr name="android:gravity"/><attr format="reference" name="targetDrawables"/><attr format="reference" name="targetDescriptions"/><attr format="reference" name="directionDescriptions"/><attr format="reference" name="handleDrawable"/><attr format="reference" name="outerRingDrawable"/><attr format="reference" name="pointDrawable"/><attr format="dimension" name="innerRadius"/><attr format="dimension" name="outerRadius"/><attr format="dimension" name="glowRadius"/><attr format="integer" name="vibrationDuration"/><attr format="dimension" name="snapMargin"/><attr format="integer" name="feedbackCount"/><attr format="boolean" name="alwaysTrackFinger"/></declare-styleable></file></source></dataSet><dataSet config="main"><source path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res"><file name="button_text_color" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable\button_text_color.xml" qualifiers="" type="drawable"/><file name="card_background" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable\card_background.png" qualifiers="" type="drawable"/><file name="check_activated" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable\check_activated.png" qualifiers="" type="drawable"/><file name="check_normal" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable\check_normal.png" qualifiers="" type="drawable"/><file name="credit_card_activated" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable\credit_card_activated.png" qualifiers="" type="drawable"/><file name="credit_card_normal" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable\credit_card_normal.png" qualifiers="" type="drawable"/><file name="custom_radio_button_selector" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable\custom_radio_button_selector.xml" qualifiers="" type="drawable"/><file name="dollar_sign_small" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable\dollar_sign_small.png" qualifiers="" type="drawable"/><file name="file" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable\file.png" qualifiers="" type="drawable"/><file name="folder" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable\folder.png" qualifiers="" type="drawable"/><file name="icon" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable\icon.png" qualifiers="" type="drawable"/><file name="ic_alarm_alert_outerring" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable\ic_alarm_alert_outerring.xml" qualifiers="" type="drawable"/><file name="ic_alarm_alert_touch_handle" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable\ic_alarm_alert_touch_handle.xml" qualifiers="" type="drawable"/><file name="ic_launcher" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable\ic_launcher.png" qualifiers="" type="drawable"/><file name="ic_lockscreen_glowdot" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable\ic_lockscreen_glowdot.png" qualifiers="" type="drawable"/><file name="item_check" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable\item_check.xml" qualifiers="" type="drawable"/><file name="item_credit" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable\item_credit.xml" qualifiers="" type="drawable"/><file name="launcher" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable\launcher.png" qualifiers="" type="drawable"/><file name="menu_share" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable\menu_share.png" qualifiers="" type="drawable"/><file name="navicon_normal" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable\navicon_normal.png" qualifiers="" type="drawable"/><file name="navicon_normal_pressed" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable\navicon_normal_pressed.png" qualifiers="" type="drawable"/><file name="radial_background" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable\radial_background.xml" qualifiers="" type="drawable"/><file name="radial_background2" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable\radial_background2.xml" qualifiers="" type="drawable"/><file name="radial_background3" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable\radial_background3.xml" qualifiers="" type="drawable"/><file name="radial_background4" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable\radial_background4.xml" qualifiers="" type="drawable"/><file name="radio_checked_bottom" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable\radio_checked_bottom.xml" qualifiers="" type="drawable"/><file name="radio_checked_default" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable\radio_checked_default.xml" qualifiers="" type="drawable"/><file name="radio_checked_left" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable\radio_checked_left.xml" qualifiers="" type="drawable"/><file name="radio_checked_middle" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable\radio_checked_middle.xml" qualifiers="" type="drawable"/><file name="radio_checked_right" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable\radio_checked_right.xml" qualifiers="" type="drawable"/><file name="radio_checked_top" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable\radio_checked_top.xml" qualifiers="" type="drawable"/><file name="radio_unchecked_bottom" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable\radio_unchecked_bottom.xml" qualifiers="" type="drawable"/><file name="radio_unchecked_default" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable\radio_unchecked_default.xml" qualifiers="" type="drawable"/><file name="radio_unchecked_left" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable\radio_unchecked_left.xml" qualifiers="" type="drawable"/><file name="radio_unchecked_middle" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable\radio_unchecked_middle.xml" qualifiers="" type="drawable"/><file name="radio_unchecked_middle_vertical" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable\radio_unchecked_middle_vertical.xml" qualifiers="" type="drawable"/><file name="radio_unchecked_right" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable\radio_unchecked_right.xml" qualifiers="" type="drawable"/><file name="radio_unchecked_top" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable\radio_unchecked_top.xml" qualifiers="" type="drawable"/><file name="ic_launcher" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="radiobutton_checked" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable-hdpi\radiobutton_checked.png" qualifiers="hdpi-v4" type="drawable"/><file name="radiobutton_unchecked" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable-hdpi\radiobutton_unchecked.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="radiobutton_checked" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable-mdpi\radiobutton_checked.png" qualifiers="mdpi-v4" type="drawable"/><file name="radiobutton_unchecked" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable-mdpi\radiobutton_unchecked.png" qualifiers="mdpi-v4" type="drawable"/><file name="radio_checked_bottom" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable-v14\radio_checked_bottom.xml" qualifiers="v14" type="drawable"/><file name="radio_checked_left" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable-v14\radio_checked_left.xml" qualifiers="v14" type="drawable"/><file name="radio_checked_right" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable-v14\radio_checked_right.xml" qualifiers="v14" type="drawable"/><file name="radio_checked_top" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable-v14\radio_checked_top.xml" qualifiers="v14" type="drawable"/><file name="radio_unchecked_bottom" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable-v14\radio_unchecked_bottom.xml" qualifiers="v14" type="drawable"/><file name="radio_unchecked_left" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable-v14\radio_unchecked_left.xml" qualifiers="v14" type="drawable"/><file name="radio_unchecked_right" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable-v14\radio_unchecked_right.xml" qualifiers="v14" type="drawable"/><file name="radio_unchecked_top" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable-v14\radio_unchecked_top.xml" qualifiers="v14" type="drawable"/><file name="ic_launcher" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file name="radiobutton_checked" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable-xhdpi\radiobutton_checked.png" qualifiers="xhdpi-v4" type="drawable"/><file name="radiobutton_unchecked" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable-xhdpi\radiobutton_unchecked.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable-xxhdpi\ic_launcher.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="radiobutton_checked" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable-xxhdpi\radiobutton_checked.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="radiobutton_unchecked" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\drawable-xxhdpi\radiobutton_unchecked.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="confirmation_activity" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\layout\confirmation_activity.xml" qualifiers="" type="layout"/><file name="dlgerrortopview" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\layout\dlgerrortopview.xml" qualifiers="" type="layout"/><file name="dlgswipetopview" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\layout\dlgswipetopview.xml" qualifiers="" type="layout"/><file name="dlgtopview" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\layout\dlgtopview.xml" qualifiers="" type="layout"/><file name="dlgtopview2bnt" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\layout\dlgtopview2bnt.xml" qualifiers="" type="layout"/><file name="dlg_setting_options" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\layout\dlg_setting_options.xml" qualifiers="" type="layout"/><file name="file_dialog_main" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\layout\file_dialog_main.xml" qualifiers="" type="layout"/><file name="file_dialog_row" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\layout\file_dialog_row.xml" qualifiers="" type="layout"/><file name="main" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\layout\main.xml" qualifiers="" type="layout"/><file name="main_activity" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\layout\main_activity.xml" qualifiers="" type="layout"/><file name="msr_activity" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\layout\msr_activity.xml" qualifiers="" type="layout"/><file name="sale_activity" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\layout\sale_activity.xml" qualifiers="" type="layout"/><file name="signature_border" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\layout\signature_border.xml" qualifiers="" type="layout"/><file name="signature_layout" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\layout\signature_layout.xml" qualifiers="" type="layout"/><file name="void_confirmation_activity" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\layout\void_confirmation_activity.xml" qualifiers="" type="layout"/><file name="main_menu" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\menu\main_menu.xml" qualifiers="" type="menu"/><file name="sale_menu" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\menu\sale_menu.xml" qualifiers="" type="menu"/><file name="settings_menu" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\menu\settings_menu.xml" qualifiers="" type="menu"/><file name="idt_unimagcfg_default" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\raw\idt_unimagcfg_default.xml" qualifiers="" type="raw"/><file path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\values\arrays.xml" qualifiers=""><array name="check_only_descriptions">
+        <item>@null</item>
+        <item>@null</item>
+        <item>check</item>
+        <item>@null</item>
+    </array><array name="credit_only_direction_descriptions">
+        <item>right</item>
+        <item>@null</item>
+        <item>@null</item>
+        <item>@null</item>
+    </array><array name="check_credit_descriptions">
+        <item>check</item>
+        <item>@null</item>
+        <item>credit</item>
+        <item>@null</item>
+    </array><array name="credit_only_drawables">
+        <item>@drawable/item_credit</item>
+        <item>@null</item>
+        <item>@null</item>
+        <item>@null</item>
+    </array><array name="credit_only_descriptions">
+        <item>credit</item>
+        <item>@null</item>
+        <item>@null</item>
+        <item>@null</item>
+    </array><array name="check_only_drawables">
+        <item>@null</item>
+        <item>@null</item>
+        <item>@drawable/item_check</item>
+        <item>@null</item>
+    </array><array name="check_credit_drawables">
+        <item>@drawable/item_credit</item>
+        <item>@null</item>
+        <item>@drawable/item_check</item>
+        <item>@null</item>
+    </array><array name="check_only_direction_descriptions">
+        <item>@null</item>
+        <item>@null</item>
+        <item>left</item>
+        <item>@null</item>
+    </array><array name="check_credit_direction_descriptions">
+        <item>right</item>
+        <item>@null</item>
+        <item>left</item>
+        <item>@null</item>
+    </array><string-array name="pref_select_transaction_type_items">
+        <item>Credit Card and Check</item>
+        <item>Credit Card</item>
+        <item>Check</item>
+    </string-array></file><file path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\values\color.xml" qualifiers=""><color name="blue">#0066cc</color><color name="blueback">#99FFFF</color><color name="dkgray">#333333</color><color name="gold">#e6b121</color><color name="ltblue">#00ccfe</color><color name="radio_button_unselected_color">@android:color/transparent</color><color name="transwhite">#aaffffff</color><color name="gray">#999999</color><color name="article_title">#3399FF</color><color name="orange">#ff5500</color><color name="blue2">#0088ed</color><color name="white">#ffffff</color><color name="black">#000000</color><color name="articlecolor">#3399FF</color><color name="transparent">#00000000</color><color name="date_color">#999999</color><color name="radio_button_selected_color">#ff33b5e5</color><color name="ltgray2">#cccccc</color><color name="cachecolor">#8ad0e8</color><color name="ltgray">#dddddd</color></file><file path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\values\dimens.xml" qualifiers=""><dimen name="glowpadview_outerring_diameter">270.0dp</dimen><dimen name="glowpadview_inner_radius">15.0dp</dimen><dimen name="radio_button_conner_radius">5dp</dimen><dimen name="glowpadview_snap_margin">40.0dp</dimen><dimen name="glowpadview_margin_right">0.0dp</dimen><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="glowpadview_glow_radius">75.0dp</dimen><dimen name="glowpadview_margin_bottom">-50.0dp</dimen><dimen name="glowpadview_target_placement_radius">135.0dp</dimen><dimen name="activity_vertical_margin">16dp</dimen></file><file path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\values\strings.xml" qualifiers=""><string name="claim">Claim</string><string name="reference_number_id">Reference Number/Transaction Number</string><string name="pref_Transaction_center_id">Set TransactionCenterID.</string><string name="clear_fields">Clear fields</string><string name="enter_ach_name_id">ach name</string><string name="nnew">New</string><string name="track2_data">Track 2 data: </string><string name="recurring_end_date_id">End Date (MM/DD/YYYY)</string><string name="signBelow">Please Sign below ...</string><string name="phone_id">Phone Numer</string><string name="enter_exp_date">exp date</string><string name="enter_owner_name_id">owner name</string><string name="close_date_id">Close Date (MM/DD/YYYY)</string><string name="checking">Checking</string><string name="pref_TID_summary">Set the TID.</string><string name="enter_street1_id">street line 1</string><string name="no_data">No Data</string><string name="pref_Transaction_center_id_key">prefTransactionCenterID</string><string name="refresh_fields">Refresh fields</string><string name="submit">Submit</string><string name="device_enabled">Device enabled</string><string name="scan_card">Scan Card</string><string name="transaction_date">Transaction Date</string><string-array name="frequency">
+       <item>daily</item>
+       <item>weekly</item>
+       <item>biweekly</item>
+       <item>monthly</item>
+       <item>bimonthly</item>
+       <item>quarterly</item>
+       <item>semiannually</item>
+       <item>annually</item>
+   </string-array><string name="location">Location</string><string name="email_id">Email Address (optional)</string><string name="data_event_enabled">Data event enabled</string><string name="pref_Processor_summary">Set the processor.</string><string name="save">Save</string><string name="recurring_start_date_id">Start Date (MM/DD/YYYY)</string><string name="async_mode">Async mode</string><string name="state_id">State</string><string name="aba_id">Routing Number</string><string name="zip_id">Zip</string><string name="company_name">Simply Connected Systems</string><string name="enter_aba_id">aba</string><string name="order_id2">Order Id</string><string name="street1_id">Street Address</string><string name="info">Info</string><string name="owner_name_id">Owner Name</string><string name="enter_amount">$ amount</string><string name="cancel">Cancel</string><string name="menu_close">Close</string><string name="enter_account_type_id">ach account type</string><string name="pref_Processor">Set Processor</string><string name="order_id">Order Id</string><string name="pref_Gateway_id_key">prefGatewayIDKey</string><string name="track3_data">Track 3 data: </string><string name="check_health">Check health</string><string name="account_type_id">Account Type</string><string name="recurring">Recurring</string><string name="approved_id">Approved</string><string name="pref_user_profileACH">User Profile (ACH)</string><string name="pref_MID_summary">Set the MID.</string><string name="cvv_number">cvv Number (optional)</string><string name="msr">MSR</string><string name="transaction_id">Transaction Id</string><string name="open">Open</string><string name="select">Select</string><string name="start_transaction">Start Transaction</string><string name="slogan">Mobile Credit Card Processing</string><string name="image_desc">ID Tech Logo</string><string name="enter_recurring_start_date_id">recurring start date</string><string name="enter_street2_id">street line 2</string><string name="sale">Sale</string><string name="app_name">Simply Connected Systems</string><string name="pref_update_setting">Update Settings</string><string name="enter_recurring_id">recurring</string><string name="enter_order_id">order id</string><string name="pref_MID_key_ACH">prefMIDKeyACH</string><string name="enter_recurring_type_id">recurring type</string><string name="saving">Saving</string><string name="enter_phone_id">phone</string><string name="street2_id">Street Address (optional)</string><string name="file_name">File name:</string><string name="enter_recurring_end_date_id">recurring end date</string><string-array name="account_type">
+        <item>C</item>
+        <item>S</item>
+    </string-array><string name="dda_id">Direct Deposit Account</string><string name="recurring_type_id">Recurring Type</string><string name="city_id">City</string><string name="swipe_card_msr">Swipe Card(MSR)</string><string name="enter_credit_card_number">credit card number</string><string name="pref_user_profileCC">User Profile (CC)</string><string name="enter_email_id">email</string><string name="enter_zip_id">zip</string><string name="pref_TID">Set TID</string><string name="credit_card_number">Credit Card Number</string><string name="cant_read_folder">folder can\'t be read!</string><string name="_void">Void</string><string name="close">Close</string><string name="enter_city_id">city</string><string name="sale_amount">Sale Amount $</string><string name="pref_TID_key">prefTIDKey</string><string-array name="states">
+
+    <item>AL</item>
+
+    <item>AK</item>
+
+    <item>AZ</item>
+
+    <item>AR</item>
+
+    <item>CA</item>
+
+    <item>CO</item>
+
+    <item>CT</item>
+
+    <item>DE</item>
+
+    <item>DC</item>
+
+    <item>FL</item>
+
+    <item>GA</item>
+
+    <item>HI</item>
+
+    <item>ID</item>
+
+    <item>IL</item>
+
+    <item>IN</item>
+
+    <item>IA</item>
+
+    <item>KS</item>
+
+    <item>KY</item>
+
+    <item>LA</item>
+
+    <item>ME</item>
+
+    <item>MD</item>
+
+    <item>MA</item>
+
+    <item>MI</item>
+
+    <item>MN</item>
+
+    <item>MS</item>
+
+    <item>MO</item>
+
+    <item>MT</item>
+
+    <item>NE</item>
+
+    <item>NV</item>
+
+    <item>NH</item>
+
+    <item>NJ</item>
+
+    <item>NM</item>
+
+    <item>NY</item>
+
+    <item>NC</item>
+
+    <item>ND</item>
+
+    <item>OH</item>
+
+    <item>OK</item>
+
+    <item>OR</item>
+
+    <item>PA</item>
+
+    <item>RI</item>
+
+    <item>SC</item>
+
+    <item>SD</item>
+
+    <item>TN</item>
+
+    <item>TX</item>
+
+    <item>UT</item>
+
+    <item>VT</item>
+
+    <item>VA</item>
+
+    <item>WA</item>
+
+    <item>WV</item>
+
+    <item>WI</item>
+
+    <item>WY</item>
+
+</string-array><string name="logical_name_colon">Logical name: </string><string name="enter_dda_id">dda</string><string name="authorization_number">Authorization Number</string><string name="enter_cvv">cvv</string><string name="enter_close_date_id">close date</string><string name="menu_settings_ACH">ACH Settings</string><string name="status">Status</string><string name="pref_MID">Set MID</string><string name="device_messages">Device messages: </string><string name="ok">OK</string><string name="track1_data">Track 1 data: </string><string name="pref_Gateway_id_summary">Set the gateway id.</string><string name="enter_state_id">state</string><string name="pref_Gateway_id_key_ACH">prefGatewayIDKeyACH</string><string name="create">Save</string><string name="pref_Gateway_id">Set GatewayID</string><string name="ach_name_id">ACH Name</string><string name="release">Release</string><string name="menu_settings_CC">CC Settings</string><string name="swipe_card">Swipe Card(AJR)</string><string name="pref_Processor_key_ACH">prefProcessorKeyACH</string><string name="pref_Transaction_center_id_key_ACH">prefTransactionCenterIDACH</string><string name="enter_reference_number_id">reference number</string><string name="recurring_id">Recurring Numer</string><string name="auto_disable">Auto disable</string><string name="pref_MID_key">prefMIDKey</string><string name="pref_Transaction_center_id_summary">Set the transaction center id.</string><string name="clear">Clear</string><string name="credit_card_exp_date">Credit Card Exp Date</string><string name="pref_Processor_key">prefProcessorKey</string></file><file path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\values\styles.xml" qualifiers=""><style name="LabelTextStyleLight">
+       <item name="android:layout_marginTop">10dp</item>
+       <item name="android:textSize">18sp</item>
+      </style><style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style><style name="LabelTextStyle">
+       <item name="android:textStyle">bold</item>
+       <item name="android:layout_marginTop">10dp</item>
+       <item name="android:textSize">18sp</item>
+     </style><style name="RadioButton">
+        <item name="android:textColor">@drawable/button_text_color</item>
+        <item name="android:minHeight">33dp</item>
+        <item name="android:minWidth">70dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style><style name="EditTextStyle">
+       <item name="android:layout_marginTop">5dp</item>
+       <item name="android:padding">6dp</item>
+       <item name="android:textSize">18sp</item>
+       <item name="android:background">@color/transwhite</item>
+    </style><style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style></file><file path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\values-sw720dp-land\dimens.xml" qualifiers="sw720dp-land-v13"><dimen name="activity_horizontal_margin">128dp</dimen></file><file path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\values-v11\styles.xml" qualifiers="v11"><style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style><style name="LabelTextStyleLight">
+       <item name="android:layout_marginTop">10dp</item>
+       <item name="android:textSize">18sp</item>
+      </style><style name="LabelTextStyle">
+       <item name="android:textStyle">bold</item>
+       <item name="android:layout_marginTop">10dp</item>
+       <item name="android:textSize">18sp</item>
+     </style><style name="EditTextStyle">
+       <item name="android:layout_marginTop">5dp</item>
+       <item name="android:padding">6dp</item>
+       <item name="android:textSize">18sp</item>
+       <item name="android:background">@color/transwhite</item>
+    </style><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style></file><file path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\values-v14\styles.xml" qualifiers="v14"><style name="LabelTextStyleLight">
+       <item name="android:layout_marginTop">10dp</item>
+       <item name="android:textSize">18sp</item>
+      </style><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style><style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style><style name="LabelTextStyle">
+       <item name="android:textStyle">bold</item>
+       <item name="android:layout_marginTop">10dp</item>
+       <item name="android:textSize">18sp</item>
+     </style><style name="EditTextStyle">
+       <item name="android:layout_marginTop">5dp</item>
+       <item name="android:padding">6dp</item>
+       <item name="android:textSize">18sp</item>
+       <item name="android:background">@color/transwhite</item>
+    </style></file><file name="device_filter" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\xml\device_filter.xml" qualifiers="" type="xml"/><file name="settings" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\xml\settings.xml" qualifiers="" type="xml"/><file name="settings_ach" path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\main\res\xml\settings_ach.xml" qualifiers="" type="xml"/></source><source path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\build\generated\res\rs\release"/><source path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\build\generated\res\generated\release"/></dataSet><dataSet config="release"><source path="S:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\src\release\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="GlowPadView"><attr name="android:gravity"/><attr format="reference" name="targetDrawables"/><attr format="reference" name="targetDescriptions"/><attr format="reference" name="directionDescriptions"/><attr format="reference" name="handleDrawable"/><attr format="reference" name="outerRingDrawable"/><attr format="reference" name="pointDrawable"/><attr format="dimension" name="innerRadius"/><attr format="dimension" name="outerRadius"/><attr format="dimension" name="glowRadius"/><attr format="integer" name="vibrationDuration"/><attr format="dimension" name="snapMargin"/><attr format="integer" name="feedbackCount"/><attr format="boolean" name="alwaysTrackFinger"/></declare-styleable><declare-styleable name="AnalogClock"><attr format="dimension" name="jewelRadius"/><attr format="dimension" name="jewelOffset"/><attr format="color" name="jewelColor"/></declare-styleable></configuration></mergedItems></merger>

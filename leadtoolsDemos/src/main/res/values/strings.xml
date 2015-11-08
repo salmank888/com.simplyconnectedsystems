@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Leadtools.Demos</string>
+
+    <string name="image_gallery">Gallery</string>
+    <string name="image_capture">Capture</string>
+    <string name="image_browse">Browse Image</string>
+    <string name="save">Save</string>
+    
+    <string name="no_data">No Data</string>
+
+    <string name="home">Home</string>
+    <string name="up">Up</string>
+    
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="browse_file">Browse File</string>
+    
+    <string name="hint_file_name">File Name</string>
+    
+    <string name="sd_card_path">/sdcard/</string>
+    
+    <string name="saveformat_format">Format</string>
+    <string name="saveformat_bits_per_pixel">Bits Per Pixel</string>
+    <string name="saveformat_subformat">Sub Format</string>
+    <string name="saveformat_quality_factor">Quality Factor</string>
+    <string name="saveformat_save">Save</string>
+    <string name="saveformat_cancel">Cancel</string>
+    
+</resources>

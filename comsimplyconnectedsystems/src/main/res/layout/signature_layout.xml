@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/radial_background2"
+    android:orientation="vertical"
+    android:weightSum="10" >
+        <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/card_background" />
+    
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2" >
+
+       <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+           <TextView
+                android:id="@+id/referenceNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                 />
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLength="30"
+                android:text="@string/signBelow"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </TableRow>
+
+        </TableLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@layout/signature_border"
+        android:orientation="horizontal"
+        android:layout_weight="7" />
+
+        <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/ltgray"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:layout_weight="1"
+        style="?android:attr/buttonBarStyle"
+         >
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".30"
+            style="?android:attr/buttonBarButtonStyle"
+            android:text="@string/cancel" />
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".35"
+            style="?android:attr/buttonBarButtonStyle"
+            android:text="@string/clear" />
+        
+        <Button
+            android:id="@+id/getsign"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".35"
+            style="?android:attr/buttonBarButtonStyle"
+            android:text="@string/save" />
+
+        </LinearLayout>
+</LinearLayout>

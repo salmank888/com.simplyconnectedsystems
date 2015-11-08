@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:startColor="@color/ltgray2" android:endColor="@color/ltgray" android:angle="270.0" android:type="radial" android:centerX="0.5" android:centerY="0.5" android:gradientRadius="600.0" />
+</shape><!-- From: file:/D:/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/src/main/res/drawable/radial_background3.xml -->

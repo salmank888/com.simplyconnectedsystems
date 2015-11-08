@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/gray2"
+	android:baselineAligned="false"
+	android:orientation="vertical"
+	android:weightSum="1.0" >
+
+
+	<RelativeLayout
+		android:id="@+id/relativelayout_viewerscontainer"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_margin="10dp"
+		android:layout_weight="1" >
+
+		<leadtools.controls.RasterImageViewer
+			android:id="@+id/imageviewer"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="@color/white" >
+		</leadtools.controls.RasterImageViewer>
+
+		<SurfaceView
+			android:id="@+id/surfaceview"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:visibility="gone" />
+
+
+	</RelativeLayout>
+
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+
+			<Button
+				android:id="@+id/btn_image_live_capture"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_marginRight="15dp"
+				android:background="@drawable/gray_button_selector"
+				android:contentDescription="@string/image_live_capture"
+				android:drawableBottom="@drawable/image_live_capture"
+				android:onClick="onSelectImage"
+				android:text="@string/image_live_capture"
+				android:layout_weight="1.2"/>
+
+			<ToggleButton
+				android:id="@+id/toggleButton"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:checked="false"
+				android:background="@drawable/toggle_selector"
+				android:text=""
+				android:textOff=""
+				android:textOn=""
+				android:layout_weight="0.6"
+				android:gravity="top"
+				android:layout_margin="15dp"
+				/>
+
+			<Button
+				android:id="@+id/btn_settings"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:background="@drawable/gray_button_selector"
+				android:contentDescription="@string/settings"
+				android:drawableBottom="@drawable/settings"
+				android:onClick="onSettings"
+				android:text="@string/settings"
+				android:layout_weight="1.2"
+				android:layout_marginLeft="15dp"/>
+
+
+		</LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/src/main/res/layout/main_micr.xml -->

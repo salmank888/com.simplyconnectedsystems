@@ -1,0 +1,183 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/radial_background2"
+    tools:context=".SaleActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/card_background" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="50dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/txtSaleAmountLabel"
+                    style="@style/LabelTextStyle"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="left"
+                    android:text="@string/sale_amount" />
+
+                <TextView
+                    android:id="@+id/txtSaleAmountValue"
+                    style="@style/LabelTextStyleLight"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/txtTransactionDateLabel"
+                    style="@style/LabelTextStyle"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="left"
+                    android:text="@string/transaction_date" />
+
+                <TextView
+                    android:id="@+id/txtTransactionDateValue"
+                    style="@style/LabelTextStyleLight"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                 />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/txtAuthorizationNumberLabel"
+                    style="@style/LabelTextStyle"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="left"
+                    android:text="@string/authorization_number" />
+
+                <TextView
+                    android:id="@+id/txtAuthorizationNumberValue"
+                    style="@style/LabelTextStyleLight"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                     />
+            </LinearLayout>
+            
+             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/txtTransactionIdLabel"
+                    style="@style/LabelTextStyle"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="left"
+                    android:text="@string/transaction_id" />
+
+                <TextView
+                    android:id="@+id/txtTransactionIdValue"
+                    style="@style/LabelTextStyleLight"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="409328409" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/txtOrderIdLabel"
+                    style="@style/LabelTextStyle"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="left"
+                    android:text="@string/order_id2" />
+
+                <TextView
+                    android:id="@+id/txtOrderIdValue"
+                    style="@style/LabelTextStyleLight"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="3232423" />
+            </LinearLayout>
+            
+                        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal"
+                android:padding="10dp" >
+
+                 <ImageView
+                  android:id="@+id/signImage"
+                  android:layout_width="300dp"
+                  android:layout_height="150dp"
+                  android:layout_gravity="center_horizontal"
+                  android:src="@drawable/radial_background4" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/ltgray"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <Button
+            android:id="@+id/btnOk"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ok" />
+    </LinearLayout>
+
+</RelativeLayout>

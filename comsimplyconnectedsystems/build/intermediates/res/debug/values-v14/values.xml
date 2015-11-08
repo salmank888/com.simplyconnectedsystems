@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/src/main/res/values-v14/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="EditTextStyle">
+       <item name="android:layout_marginTop">5dp</item>
+       <item name="android:padding">6dp</item>
+       <item name="android:textSize">18sp</item>
+       <item name="android:background">@color/transwhite</item>
+    </style>
+    <style name="LabelTextStyle">
+       <item name="android:textStyle">bold</item>
+       <item name="android:layout_marginTop">10dp</item>
+       <item name="android:textSize">18sp</item>
+     </style>
+    <style name="LabelTextStyleLight">
+       <item name="android:layout_marginTop">10dp</item>
+       <item name="android:textSize">18sp</item>
+      </style>
+</resources>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="leadtools.imageprocessing.core">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/comsimplyconnectedsystems/libs/leadtools.imageprocessing.core.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
