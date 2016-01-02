@@ -1,5 +1,6 @@
 package com.simplyconnectedsystems.micr;
 
+import android.Manifest;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -8,6 +9,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnDismissListener;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
@@ -25,10 +27,10 @@ import android.hardware.Camera.AutoFocusCallback;
 import android.hardware.Camera.Parameters;
 import android.hardware.Camera.PreviewCallback;
 import android.hardware.Camera.Size;
-import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
+import android.support.annotation.NonNull;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -48,6 +50,7 @@ import android.widget.Toast;
 import android.widget.ToggleButton;
 
 import com.simplyconnectedsystems.utility.Constants;
+import com.simplyconnectedsystems.utility.UtilsClass;
 import com.sk.simplyconnectedsystems.R;
 
 import java.io.ByteArrayOutputStream;
@@ -181,7 +184,6 @@ public class MicrDemoActivity extends Activity implements SurfaceHolder.Callback
                finish();
             }
          });
-         
          return;
       }
 
@@ -271,16 +273,24 @@ public class MicrDemoActivity extends Activity implements SurfaceHolder.Callback
       // Set the holder type if the API is lower than 11
       if(Build.VERSION.SDK_INT < 11)
          mSurfaceHolder.setType(SurfaceHolder.SURFACE_TYPE_PUSH_BUFFERS);
-      
-      copyLanguageFiles();
-      mMicrVideoExtractionMode = MicrExtractionMode_Strict;
-      mMicrPictureExtractionMode = MicrExtractionMode_Relaxed;
-      init();
 
-      if(DeviceUtils.hasCamera(this))
-         startLiveCapture();
+      if (UtilsClass.requestPermission(MicrDemoActivity.this, Manifest.permission.WRITE_EXTERNAL_STORAGE, "Request for Writing External Storage", Constants.PermissionRequestCodes.WRITE_EXTERNAL_STORAGE)) {
+         copyLanguageFiles();
 
-      setMicrExtractMode();
+         mMicrVideoExtractionMode = MicrExtractionMode_Strict;
+         mMicrPictureExtractionMode = MicrExtractionMode_Relaxed;
+         init();
+
+         setMicrExtractMode();
+
+      }
+
+      if (UtilsClass.requestPermission(MicrDemoActivity.this, Manifest.permission.CAMERA, "Request for Camera", Constants.PermissionRequestCodes.SYSTEM_CAMERA)) {
+         if(DeviceUtils.hasCamera(this))
+            startLiveCapture();
+
+      }
+
    }
 
    private boolean copyLanguageFiles() {
@@ -401,7 +411,7 @@ public class MicrDemoActivity extends Activity implements SurfaceHolder.Callback
 
       }
       
-      setMicrExtractMode();
+//      setMicrExtractMode();
    }
 
    private void setImage(RasterImage image) {
@@ -1167,4 +1177,52 @@ public class MicrDemoActivity extends Activity implements SurfaceHolder.Callback
 
       return ocrRes;
    }
+
+   /**
+    * callback function for requests
+    * @param requestCode the request code you have sent for requestingpermission
+    * @param permissions which permissions were asked.
+    * @param grantResults permissions granted or not
+    */
+   @Override
+   public void onRequestPermissionsResult(int requestCode,
+                                          @NonNull String permissions[], @NonNull int[] grantResults) {
+      switch (requestCode) {
+
+         case Constants.PermissionRequestCodes.SYSTEM_CAMERA:{
+            if (grantResults.length > 0
+                    && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+               // permission was granted, yay! Do the
+               // contacts-related task you need to do.
+               Toast.makeText(MicrDemoActivity.this, "Permission Granted", Toast.LENGTH_LONG).show();
+//               StaticFunctions.createSnackBar(mCoordinatorLayout,"Permission Granted","DISMISS",Snackbar.LENGTH_LONG);
+            } else {
+               Toast.makeText(MicrDemoActivity.this, "Permission Camera Denied", Toast.LENGTH_LONG).show();
+//               StaticFunctions.createSnackBar(mCoordinatorLayout,"Permission Read Phone/Calls Denied","DISMISS",Snackbar.LENGTH_INDEFINITE);
+               // permission denied, boo! Disable the
+               // functionality that depends on this permission.
+            }
+         }
+
+         case Constants.PermissionRequestCodes.WRITE_EXTERNAL_STORAGE:{
+            if (grantResults.length > 0
+                    && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+               // permission was granted, yay! Do the
+               // contacts-related task you need to do.
+               Toast.makeText(MicrDemoActivity.this, "Permission Granted", Toast.LENGTH_LONG).show();
+//               StaticFunctions.createSnackBar(mCoordinatorLayout,"Permission Granted","DISMISS",Snackbar.LENGTH_LONG);
+            } else {
+               Toast.makeText(MicrDemoActivity.this, "Permission Write External Storage Denied", Toast.LENGTH_LONG).show();
+//               StaticFunctions.createSnackBar(mCoordinatorLayout,"Permission Read Phone/Calls Denied","DISMISS",Snackbar.LENGTH_INDEFINITE);
+               // permission denied, boo! Disable the
+               // functionality that depends on this permission.
+            }
+         }
+
+         // other 'case' lines to check for other
+         // permissions this app might request
+      }
+   }
+
+
 }

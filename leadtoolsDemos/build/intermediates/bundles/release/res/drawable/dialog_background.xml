@@ -4,4 +4,4 @@
     <gradient android:startColor="@color/blue2" android:endColor="@color/white" android:angle="270" />
     <corners android:radius="5dp" />
     <padding android:top="5dp" android:bottom="5dp"/>
-</shape><!-- From: file:/D:/AndroidStudioProjects/com.simplyconnectedsystems/leadtoolsDemos/src/main/res/drawable/dialog_background.xml -->
+</shape><!-- From: file:/E:/AndroidStudioProjects/com.simplyconnectedsystems/leadtoolsDemos/src/main/res/drawable/dialog_background.xml -->

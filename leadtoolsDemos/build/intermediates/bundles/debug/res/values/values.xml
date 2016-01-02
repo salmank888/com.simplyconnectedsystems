@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/D:/AndroidStudioProjects/com.simplyconnectedsystems/leadtoolsDemos/src/main/res/values/colors.xml -->
+    <!-- From: file:/E:/AndroidStudioProjects/com.simplyconnectedsystems/leadtoolsDemos/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="black">#ff000000</color>
     <color name="blue1">#ff50a0f0</color>
@@ -10,7 +10,7 @@
     <color name="white">#ffffffff</color>
     <color name="yellow">#ffb06010</color>
     <declare-styleable name="imageviewer"><attr format="reference" name="imageviewer_imageBitmap"/><attr format="boolean" name="imageviewer_enableOwnerDraw"/><attr format="boolean" name="imageviewer_flip"/><attr format="boolean" name="imageviewer_reverse"/><attr format="boolean" name="imageviewer_resizeOnRotate"/><attr format="boolean" name="imageviewer_restrictHiddenScrollMode"/><attr format="boolean" name="imageviewer_useDpi"/><attr format="boolean" name="imageviewer_enableDpiCorrection"/><attr format="integer" name="imageviewer_screenDpiX"/><attr format="integer" name="imageviewer_screenDpiY"/><attr format="integer" name="imageviewer_imageDpiX"/><attr format="integer" name="imageviewer_imageDpiY"/><attr format="float" name="imageviewer_rotateAngle"/><attr format="float" name="imageviewer_scaleFactor"/><attr format="float" name="imageviewer_aspectRatioCorrection"/><attr name="imageviewer_newImageResetOptions"><flag name="none" value="0x0000"/><flag name="scroll_offset" value="0x0001"/><flag name="scale_factor" value="0x0002"/><flag name="size_mode" value="0x0004"/><flag name="reverse" value="0x0008"/><flag name="flip" value="0x0010"/><flag name="rotate_angle" value="0x0020"/><flag name="aspect_ratio_correction" value="0x0080"/><flag name="color_filter" value="0x0100"/><flag name="all" value="0x0fff"/></attr><attr name="imageviewer_scrollMode"><enum name="auto" value="0"/><enum name="hidden" value="1"/><enum name="disabled" value="2"/></attr><attr name="imageviewer_sizeMode"><enum name="none" value="0"/><enum name="actual_size" value="1"/><enum name="fit" value="2"/><enum name="fit_always" value="3"/><enum name="fit_width" value="4"/><enum name="fit_height" value="5"/><enum name="stretch" value="6"/></attr><attr name="imageviewer_horizontalAlignment"><enum name="near" value="0"/><enum name="center" value="1"/><enum name="far" value="2"/></attr><attr name="imageviewer_verticalAlignment"><enum name="near" value="0"/><enum name="center" value="1"/><enum name="far" value="2"/></attr></declare-styleable>
-    <!-- From: file:/D:/AndroidStudioProjects/com.simplyconnectedsystems/leadtoolsDemos/src/main/res/values/strings.xml -->
+    <!-- From: file:/E:/AndroidStudioProjects/com.simplyconnectedsystems/leadtoolsDemos/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="app_name">Leadtools.Demos</string>
     <string name="browse_file">Browse File</string>
@@ -33,7 +33,7 @@
     <string name="saveformat_subformat">Sub Format</string>
     <string name="sd_card_path">/sdcard/</string>
     <string name="up">Up</string>
-    <!-- From: file:/D:/AndroidStudioProjects/com.simplyconnectedsystems/leadtoolsDemos/src/main/res/values/styles.xml -->
+    <!-- From: file:/E:/AndroidStudioProjects/com.simplyconnectedsystems/leadtoolsDemos/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="ActionbarButton">
         <item name="android:layout_width">wrap_content</item>

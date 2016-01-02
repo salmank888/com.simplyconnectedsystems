@@ -1,32 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
  
-    <PreferenceCategory android:title="@string/pref_user_profileCC" >
+    <PreferenceCategory android:title="@string/pref_user_profileGeneral" >
         <EditTextPreference
-                android:title="@string/pref_MID"
-                android:summary="@string/pref_MID_summary"
-                android:key="@string/pref_MID_key"/>
-       
-        <EditTextPreference
-                android:title="@string/pref_TID"
-                android:summary="@string/pref_TID_summary"
-                android:key="@string/pref_TID_key"/>
-   
-        <EditTextPreference
-                android:title="@string/pref_Processor"
-                android:summary="@string/pref_Processor_summary"
-                android:key="@string/pref_Processor_key"/>
-        
-        <EditTextPreference
-                android:title="@string/pref_Gateway_id"
-                android:summary="@string/pref_Gateway_id_summary"
-                android:key="@string/pref_Gateway_id_key"/>
-                
-        <EditTextPreference
-                android:title="@string/pref_Transaction_center_id"
-                android:summary="@string/pref_Transaction_center_id_summary"
-                android:key="@string/pref_Transaction_center_id_key"/>
-                        
+                android:title="@string/pref_CompanyName"
+                android:summary="@string/pref_CompanyName_summary"
+                android:key="@string/pref_CompanyName_key"
+                android:defaultValue="@string/app_name"/>
+
+        <ListPreference
+            android:dialogTitle="@string/pref_AllowedMode"
+            android:key="@string/pref_AllowedMode_key"
+            android:summary="@string/pref_AllowedMode_summary"
+            android:title="@string/pref_AllowedMode"
+            android:entries="@array/allowed_mode"
+            android:entryValues="@array/allowed_mode_vals"
+            android:defaultValue="1"
+            />
+
     </PreferenceCategory>
      
 </PreferenceScreen>

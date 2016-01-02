@@ -20,4 +20,6 @@
  <color name="cachecolor">#8ad0e8</color>
  <color name="radio_button_selected_color">#ff33b5e5</color>
  <color name="radio_button_unselected_color">@android:color/transparent</color>
+ <color name="main_screen_background">#CC3366CC</color>
+
 </resources>

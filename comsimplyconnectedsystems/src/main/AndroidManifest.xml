@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.sk.simplyconnectedsystems"
-    android:sharedUserId="com.bxl.printer"
     android:versionCode="1"
-    android:versionName="1.1"
-    xmlns:tools="http://schemas.android.com/tools">
-    
-        <uses-feature android:name="android.hardware.usb.host" />
-    
-       <!-- for Bluetooth -->
-    <uses-permission android:name="android.permission.BLUETOOTH" />
-    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    android:versionName="1.1">
+
 
     <!-- for Wi-Fi Direct -->
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
@@ -20,94 +14,77 @@
 
     <!-- for Gallery -->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.VIBRATE"/>
-     <uses-permission android:name="android.permission.CAMERA" />     
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!--<uses-permission android:name="android.permission.READ_PHONE_STATE" />-->
 
-    <uses-feature android:name="android.hardware.camera" android:required="false" />
-    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
-    
-
-    <uses-sdk
-        android:minSdkVersion="11"
-        android:targetSdkVersion="17"
-        tools:overrideLibrary="com.fima.glowpadview"/>
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/launcher"
+        android:icon="@drawable/cnc_by_air"
         android:label="@string/app_name"
-        android:theme="@style/AppBaseTheme" >
+        android:theme="@style/AppBaseTheme">
         <activity
             android:name="com.simplyconnectedsystems.MainActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:label="@string/app_name" >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-         <activity
+        <activity
             android:name="com.simplyconnectedsystems.SaleActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustPan"></activity>
         <activity
             android:name="com.simplyconnectedsystems.TransConfirmActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name"></activity>
         <activity
             android:name="com.simplyconnectedsystems.VoidTransConfirmActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:label="@string/app_name" >
-        </activity>
-         <activity
+            android:label="@string/app_name"></activity>
+        <activity
             android:name="com.simplyconnectedsystems.CCUserSettingsActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:label="@string/app_name" > 
-        </activity>
-                 <activity
+            android:label="@string/app_name"></activity>
+        <activity
             android:name="com.simplyconnectedsystems.ACHUserSettingsActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:label="@string/app_name" > 
-        </activity>
-                         <activity
+            android:label="@string/app_name"></activity>
+
+        <activity android:name="com.simplyconnectedsystems.GeneralUserSettingsActivity">
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"></activity>
+
+        <activity
             android:name="com.simplyconnectedsystems.utility.CaptureSignature"
-            android:configChanges="keyboardHidden|orientation|screenSize"
-             > 
-        </activity>
-        
-         <activity
-            android:name="com.simplyconnectedsystems.MSRActivity"
-            android:configChanges="keyboardHidden|orientation|screenSize"
-            android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
-            </intent-filter>
-
-	
-            <meta-data
-                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
-                android:resource="@xml/device_filter" />
-            
-        </activity>
-
-
-        <activity android:name="com.simplyconnectedsystems.micr.MicrDemoActivity"
-            android:screenOrientation="landscape"
+            android:configChanges="keyboardHidden|orientation|screenSize"></activity>
+        <activity
+            android:name="com.simplyconnectedsystems.micr.MicrDemoActivity"
             android:configChanges="orientation|screenSize"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
-            />
-
-
-        <activity android:name="io.card.payment.CardIOActivity" android:configChanges="keyboardHidden|orientation" android:hardwareAccelerated="true"/>
-    	<activity android:name="io.card.payment.DataEntryActivity" android:screenOrientation="portrait"/>
-    
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="io.card.payment.CardIOActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:hardwareAccelerated="true" />
+        <activity
+            android:name="io.card.payment.DataEntryActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

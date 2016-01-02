@@ -16,4 +16,10 @@ public class Constants {
 	public static final String OWNER_CITY = "city";
 
 
+	public static class PermissionRequestCodes {
+		public static final int WRITE_EXTERNAL_STORAGE = 3;
+		public static final int SYSTEM_MICROPHONE = 4;
+		public static final int SYSTEM_CAMERA = 5;
+	}
+
 }

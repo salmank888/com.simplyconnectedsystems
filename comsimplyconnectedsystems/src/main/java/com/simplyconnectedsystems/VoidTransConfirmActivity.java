@@ -1,16 +1,18 @@
 package com.simplyconnectedsystems;
 
 import com.simplyconnectedsystems.domain.VoidResponse;
+import com.simplyconnectedsystems.utility.GeneralPreferenceHelper;
 import com.sk.simplyconnectedsystems.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class VoidTransConfirmActivity extends Activity {
+public class VoidTransConfirmActivity extends AppCompatActivity {
 
 	VoidResponse _voidTransResponse;
 
@@ -22,12 +24,17 @@ public class VoidTransConfirmActivity extends Activity {
 	TextView _txtTransactionIdValue;
 	TextView _txtOrderIdValue;
 	ImageView _imgSignatureValue;
+	private GeneralPreferenceHelper _preferanceHelperGeneral;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 
 		setContentView(R.layout.void_confirmation_activity);
+
+
+		_preferanceHelperGeneral = new GeneralPreferenceHelper(this.getApplicationContext());
+		setTitle(_preferanceHelperGeneral.getCompanyName());
 
 		Bundle extras = getIntent().getExtras();
 

@@ -72,6 +72,18 @@ public class Messager {
       kernelExpiredDlg.setOnDismissListener(listener);
       kernelExpiredDlg.show();
    }
+
+   public static void showGrantPermissionsMessage(Context context, OnDismissListener listener) {
+      AlertDialog.Builder kernelExpiredDlgBuilder  = new AlertDialog.Builder(context);
+
+      kernelExpiredDlgBuilder.setMessage("Please Grant the required Permission and Then Try Again.");
+      kernelExpiredDlgBuilder.setTitle("Permissions Required!!!");
+      kernelExpiredDlgBuilder.setPositiveButton("OK", null);
+      AlertDialog kernelExpiredDlg = kernelExpiredDlgBuilder.create();
+      kernelExpiredDlg.setCanceledOnTouchOutside(false);
+      kernelExpiredDlg.setOnDismissListener(listener);
+      kernelExpiredDlg.show();
+   }
    
    private static boolean threadHasLooper() {
       return Looper.myLooper() != null;

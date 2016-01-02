@@ -7,19 +7,21 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import com.simplyconnectedsystems.domain.TransactionResponse;
+import com.simplyconnectedsystems.utility.GeneralPreferenceHelper;
 import com.sk.simplyconnectedsystems.R;
 
 import android.app.Activity;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class TransConfirmActivity extends Activity {
+public class TransConfirmActivity extends AppCompatActivity {
 
 	TransactionResponse _transResponse;
 
@@ -31,12 +33,16 @@ public class TransConfirmActivity extends Activity {
 	TextView _txtTransactionIdValue;
 	TextView _txtOrderIdValue;
 	ImageView _imgSignatureValue;
+	private GeneralPreferenceHelper _preferanceHelperGeneral;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 
 		setContentView(R.layout.confirmation_activity);
+
+		_preferanceHelperGeneral = new GeneralPreferenceHelper(this.getApplicationContext());
+		setTitle(_preferanceHelperGeneral.getCompanyName());
 
 		Bundle extras = getIntent().getExtras();
 

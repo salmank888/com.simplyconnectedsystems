@@ -2,16 +2,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/radial_background2"
+    android:background="@drawable/bg"
     tools:context=".SaleActivity" >
 
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_alignParentTop="true"
-        android:scaleType="fitXY"
-        android:src="@drawable/card_background" />
+
 
     <ScrollView
         android:layout_width="match_parent"
@@ -156,28 +150,26 @@
                   android:layout_width="300dp"
                   android:layout_height="150dp"
                   android:layout_gravity="center_horizontal"
-                  android:src="@drawable/radial_background4" />
+                  android:src="#80FFFFFF" />
 
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
 
     <LinearLayout
-        style="?android:attr/buttonBarStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="@color/ltgray"
         android:orientation="horizontal"
         android:padding="5dp" >
 
         <Button
             android:id="@+id/btnOk"
-            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="0dip"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/ok" />
+            android:text="@string/ok"
+            android:background="@drawable/submit_btn"/>
     </LinearLayout>
 
 </RelativeLayout>

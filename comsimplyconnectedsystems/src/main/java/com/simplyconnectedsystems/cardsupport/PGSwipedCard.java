@@ -84,7 +84,7 @@ public class PGSwipedCard extends PGCard {
 
     public String getEncryptedDirectPostString() {
 
-        return "<FIELD KEY=\"enctrack1\">" + getTrack1() + "</FIELD><FIELD KEY=\"ksn\">" + getKsnData() +"</FIELD><FIELD KEY=\"swiper\">simplyconnectedsystems</FIELD>";
+        return "<FIELD KEY=\"enctrack1\">" + getTrack1() + "</FIELD><FIELD KEY=\"ksn\">" + getKsnData().replaceAll(" ", "")+"</FIELD><FIELD KEY=\"swiper\">unimag</FIELD>";
 
     }
 }

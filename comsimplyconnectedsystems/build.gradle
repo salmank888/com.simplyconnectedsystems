@@ -2,12 +2,21 @@ apply plugin: 'com.android.application'
 
 android {
 
-    compileSdkVersion 21
-    buildToolsVersion "21.1.2"
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
     defaultConfig {
         applicationId "com.sk.simplyconnectedsystems"
         minSdkVersion 8
-        targetSdkVersion 17
+        targetSdkVersion 23
+    }
+    productFlavors {
+        simplyconnectedsystems {
+            applicationId = "com.sk.simplyconnectedsystems"
+        }
+        bayareaairconditioning {
+            applicationId = "com.sk.simplyconnectedsystems.bayareaairconditioning"
+        }
     }
     buildTypes {
         release {
@@ -15,19 +24,21 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
+
+    useLibrary 'org.apache.http.legacy'
+
 }
 
 dependencies {
-    compile project(':glowPadView')
     compile project(':leadtoolsDemos')
-    compile files('libs/bixolon_printer.jar')
     compile files('libs/card.io.jar')
     compile files('libs/IDT_UniMagSDKAndroid_v4.4.jar')
-    compile files('libs/jpos114-controls.jar')
     compile files('libs/xerces.jar')
     compile files('libs/leadtools.forms.ocr.jar')
     compile files('libs/leadtools.imageprocessing.color.jar')
     compile files('libs/leadtools.imageprocessing.core.jar')
     compile files('libs/leadtools.imageprocessing.effects.jar')
     compile files('libs/butterknife-7.0.1.jar')
+    compile 'com.android.support:appcompat-v7:23.1.1'
+
 }

@@ -95,9 +95,9 @@ public class CaptureSignature extends Activity {
  		mContent = (LinearLayout) findViewById(R.id.linearLayout);
 		mSignature = new signature(this, null);
 		if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.JELLY_BEAN)
-			mSignature.setBackground(getResources().getDrawable(R.layout.signature_border));
+			mSignature.setBackground(getResources().getDrawable(R.drawable.signature_border));
 		else
-			mSignature.setBackgroundDrawable(getResources().getDrawable(R.layout.signature_border));
+			mSignature.setBackgroundDrawable(getResources().getDrawable(R.drawable.signature_border));
 		mContent.addView(mSignature, LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT);
 		mClear = (Button) findViewById(R.id.clear);
 		mGetSign = (Button) findViewById(R.id.getsign);

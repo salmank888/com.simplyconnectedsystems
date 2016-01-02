@@ -1,14 +1,23 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/menu_settingsCC"
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_settingsCC"
+        android:orderInCategory="100"
         android:title="@string/menu_settings_CC"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_settingsACH"
         android:orderInCategory="100"
-        android:showAsAction="never" />
-        <item android:id="@+id/menu_settingsACH"
         android:title="@string/menu_settings_ACH"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_settingsGeneral"
         android:orderInCategory="100"
-        android:showAsAction="never" />
-     <item android:id="@+id/menu_close"
+        android:title="@string/menu_settings_General"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_close"
+        android:orderInCategory="100"
         android:title="@string/menu_close"
-        android:orderInCategory="100"
-        android:showAsAction="never" />
+        app:showAsAction="never" />
 </menu>

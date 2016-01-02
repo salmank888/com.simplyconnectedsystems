@@ -3,16 +3,10 @@
     android:id="@+id/linearLayout1"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@drawable/radial_background2"
+    android:background="@drawable/bg"
     android:orientation="vertical"
     android:weightSum="10" >
-        <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_alignParentTop="true"
-        android:scaleType="fitXY"
-        android:src="@drawable/card_background" />
+
     
     <TableLayout
         android:id="@+id/tableLayout1"
@@ -57,7 +51,7 @@
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:background="@layout/signature_border"
+        android:background="@drawable/signature_border"
         android:orientation="horizontal"
         android:layout_weight="7" />
 
@@ -65,11 +59,9 @@
         android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:background="@color/ltgray"
         android:orientation="horizontal"
         android:padding="5dp"
         android:layout_weight="1"
-        style="?android:attr/buttonBarStyle"
          >
 
         <Button
@@ -77,15 +69,17 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight=".30"
-            style="?android:attr/buttonBarButtonStyle"
-            android:text="@string/cancel" />
+            android:text="@string/cancel"
+            android:background="@drawable/submit_btn"
+            android:layout_marginRight="1dp"/>
 
         <Button
             android:id="@+id/clear"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight=".35"
-            style="?android:attr/buttonBarButtonStyle"
+            android:background="@drawable/submit_btn"
+            android:layout_marginRight="1dp"
             android:text="@string/clear" />
         
         <Button
@@ -93,7 +87,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight=".35"
-            style="?android:attr/buttonBarButtonStyle"
+            android:background="@drawable/submit_btn"
             android:text="@string/save" />
 
         </LinearLayout>

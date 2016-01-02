@@ -2,7 +2,7 @@ package com.simplyconnectedsystems;
 
 import com.simplyconnectedsystems.utility.CreditPreferenceHelper;
 import com.sk.simplyconnectedsystems.R;
-import android.content.Intent;
+
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.os.Bundle;
@@ -28,7 +28,7 @@ public class CCUserSettingsActivity extends PreferenceActivity implements
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 
-		addPreferencesFromResource(R.xml.settings);
+		addPreferencesFromResource(R.xml.settings_cc);
 		
 		_preferenceHelper = new CreditPreferenceHelper(this.getApplicationContext());
 
