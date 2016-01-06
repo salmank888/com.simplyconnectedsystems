@@ -46,7 +46,16 @@
         android:text="@string/_void"
         style="@style/RadioButton"
         android:padding="5dp" />
-    
+
+        <RadioButton
+            android:id="@+id/btnAuthOnly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/auth"
+            style="@style/RadioButton"
+            android:padding="5dp"
+            android:visibility="gone"/>
+
         <RadioButton
         android:id="@+id/btnRecurring"
         android:layout_width="wrap_content"
@@ -54,14 +63,7 @@
         android:text="@string/recurring"
         style="@style/RadioButton"
         android:padding="5dp" />
-        <RadioButton
-            android:id="@+id/btnAuth"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/auth"
-            style="@style/RadioButton"
-            android:padding="5dp"
-            android:visibility="gone"/>
+
 </com.simplyconnectedsystems.utility.SegmentedGroup>
 
     <TextView
