@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/com.simplyconnectedsystems.iml" filepath="$PROJECT_DIR$/com.simplyconnectedsystems.iml" />
       <module fileurl="file://$PROJECT_DIR$/comsimplyconnectedsystems/comsimplyconnectedsystems.iml" filepath="$PROJECT_DIR$/comsimplyconnectedsystems/comsimplyconnectedsystems.iml" />
-      <module fileurl="file://$PROJECT_DIR$/glowPadView/glowPadView.iml" filepath="$PROJECT_DIR$/glowPadView/glowPadView.iml" />
       <module fileurl="file://$PROJECT_DIR$/leadtoolsDemos/leadtoolsDemos.iml" filepath="$PROJECT_DIR$/leadtoolsDemos/leadtoolsDemos.iml" />
     </modules>
   </component>

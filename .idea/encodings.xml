@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/comsimplyconnectedsystems/src/main/assets/fonts" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/comsimplyconnectedsystems/src/main/assets/ocr_runtime" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/comsimplyconnectedsystems/src/main/java/com/simplyconnectedsystems/micr/MicrDemoActivity.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/comsimplyconnectedsystems/src/main/jniLibs/armeabi-v7a/libleadtools.forms.ocr.so" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/comsimplyconnectedsystems/src/main/jniLibs/armeabi/libleadtools.forms.ocr.so" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/comsimplyconnectedsystems/src/main/jniLibs/mips/libleadtools.forms.ocr.so" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/comsimplyconnectedsystems/src/main/jniLibs/x86/libleadtools.forms.ocr.so" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/comsimplyconnectedsystems/src/main/res/drawable-hdpi/image_live_capture.png" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/comsimplyconnectedsystems/src/main/res/drawable-hdpi/settings.png" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/comsimplyconnectedsystems/src/main/res/drawable-xhdpi/image_live_capture.png" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/comsimplyconnectedsystems/src/main/res/drawable-xhdpi/settings.png" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/comsimplyconnectedsystems/src/main/res/drawable/rsz_toggle_off.png" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/comsimplyconnectedsystems/src/main/res/drawable/rsz_toggle_on.png" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/comsimplyconnectedsystems/src/main/res/layout/micr_results.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/comsimplyconnectedsystems/src/main/res/layout/micr_settings.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/leadtoolsDemos" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

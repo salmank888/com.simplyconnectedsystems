@@ -1,2 +1,2 @@
-include ':glowPadView', ':leadtoolsDemos'
+include ':leadtoolsDemos'
 include ':comsimplyconnectedsystems'

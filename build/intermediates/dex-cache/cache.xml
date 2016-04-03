@@ -2,116 +2,116 @@
 <items version="2" >
 
     <item
-        jar="D:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\libs\jpos114-controls.jar"
+        jar="/Users/salmankhalid/Documents/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/build/intermediates/exploded-aar/com.simplyconnectedsystems/leadtoolsDemos/unspecified/jars/classes.jar"
         jumboMode="false"
-        revision="21.1.2"
-        sha1="8438661290fdc4a045ca26373631d9430bc4c393">
-        <dex dex="D:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\build\intermediates\pre-dexed\debug\jpos114-controls-0efdcf47b834382824d085c1216f5051112cf9cb.jar" />
+        revision="23.0.2"
+        sha1="9cf4ebf260b64097fa1dee7b3904e17f322043a9">
+        <dex dex="/Users/salmankhalid/Documents/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/build/intermediates/pre-dexed/simplyconnectedsystems/debug/classes-4e4538dd85c7fc5fdce300aa2af866595f944ee2.jar" />
     </item>
     <item
-        jar="D:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\build\intermediates\exploded-aar\com.simplyconnectedsystems\leadtoolsDemos\unspecified\libs\leadtools.controls.jar"
+        jar="/Users/salmankhalid/Documents/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/build/intermediates/exploded-aar/com.simplyconnectedsystems/leadtoolsDemos/unspecified/jars/libs/leadtools.codecs.jar"
         jumboMode="false"
-        revision="21.1.2"
-        sha1="cc343d15b999a44e48268b3753861843adcd5698">
-        <dex dex="D:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\build\intermediates\pre-dexed\debug\leadtools.controls-333ce4429c1e1eeac6cd630c371a90403005716c.jar" />
-    </item>
-    <item
-        jar="D:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\libs\leadtools.imageprocessing.color.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="be464d0973f37e068b08f6c250bae9950c173631">
-        <dex dex="D:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\build\intermediates\pre-dexed\debug\leadtools.imageprocessing.color-13bdbb2142b52e0af37fc7012bdc6ff3ce6ca5d7.jar" />
-    </item>
-    <item
-        jar="D:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\libs\xerces.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="214870287756f1890b43451d01c422a8a490bbb1">
-        <dex dex="D:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\build\intermediates\pre-dexed\debug\xerces-6ff88174a30fa82a5046a79b3a083edc0a0dc213.jar" />
-    </item>
-    <item
-        jar="D:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\libs\butterknife-7.0.1.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
-        <dex dex="D:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\build\intermediates\pre-dexed\debug\butterknife-7.0.1-1ad84ca2fd9dafdc28b19fd12b5a0188bfceedb2.jar" />
-    </item>
-    <item
-        jar="D:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\build\intermediates\exploded-aar\com.simplyconnectedsystems\leadtoolsDemos\unspecified\libs\leadtools.codecs.jar"
-        jumboMode="false"
-        revision="21.1.2"
+        revision="23.0.2"
         sha1="e55b0b799c254e816f8632d3c41457fc7fd7a730">
-        <dex dex="D:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\build\intermediates\pre-dexed\debug\leadtools.codecs-ef203fa42683a6c516c4a6c2ae1b58f43df545fe.jar" />
+        <dex dex="/Users/salmankhalid/Documents/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/build/intermediates/pre-dexed/simplyconnectedsystems/debug/leadtools.codecs-a0e51bc49181507c04dbb7ab44277f3354250278.jar" />
     </item>
     <item
-        jar="D:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\build\intermediates\exploded-aar\com.simplyconnectedsystems\leadtoolsDemos\unspecified\libs\leadtools.jar"
+        jar="/Users/salmankhalid/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
         jumboMode="false"
-        revision="21.1.2"
-        sha1="904bc47672df39ce92577fcbf9a1ae0542c85b92">
-        <dex dex="D:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\build\intermediates\pre-dexed\debug\leadtools-0c1e5b0b49d047cdb122865e8325607561c8c89b.jar" />
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/salmankhalid/Documents/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/build/intermediates/pre-dexed/simplyconnectedsystems/debug/support-annotations-23.1.1-9738226ebf5d4133ea2f6c65b7cef7e70167a77d.jar" />
     </item>
     <item
-        jar="D:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\libs\bixolon_printer.jar"
+        jar="/Users/salmankhalid/Documents/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
         jumboMode="false"
-        revision="21.1.2"
-        sha1="9131796aa3e7958e3598dc26e892f624d6304d27">
-        <dex dex="D:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\build\intermediates\pre-dexed\debug\bixolon_printer-296a99393cce7de3efa94ed7e5712882ef9a88bf.jar" />
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/salmankhalid/Documents/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/build/intermediates/pre-dexed/simplyconnectedsystems/debug/classes-6a2d7c01c908ea95cda98b66a6893081b71771ae.jar" />
     </item>
     <item
-        jar="D:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\libs\IDT_UniMagSDKAndroid_v4.4.jar"
+        jar="/Users/salmankhalid/Documents/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/build/intermediates/exploded-aar/com.simplyconnectedsystems/leadtoolsDemos/unspecified/jars/libs/leadtools.controls.jar"
         jumboMode="false"
-        revision="21.1.2"
-        sha1="4971f019fd4865cd0fbe0ad7d584eb2d16006949">
-        <dex dex="D:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\build\intermediates\pre-dexed\debug\IDT_UniMagSDKAndroid_v4.4-198bdd8861da069d7ed69272a8c4602ea7ce005b.jar" />
+        revision="23.0.2"
+        sha1="cc343d15b999a44e48268b3753861843adcd5698">
+        <dex dex="/Users/salmankhalid/Documents/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/build/intermediates/pre-dexed/simplyconnectedsystems/debug/leadtools.controls-83607a18a14a175e94257e66d21bddf078bbd1e8.jar" />
     </item>
     <item
-        jar="D:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\build\intermediates\exploded-aar\com.simplyconnectedsystems\glowPadView\unspecified\classes.jar"
+        jar="/Users/salmankhalid/Documents/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
         jumboMode="false"
-        revision="21.1.2"
-        sha1="f4107a5f5bb5d5e82aaa9a7a6636525275c78d2c">
-        <dex dex="D:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\build\intermediates\pre-dexed\debug\classes-76ce3a8f0953b6d2aa0dc29e0b22a922f6f74fc2.jar" />
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/salmankhalid/Documents/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/build/intermediates/pre-dexed/simplyconnectedsystems/debug/classes-c345e68a032b40a524e2399942d8e3fd922e56a2.jar" />
     </item>
     <item
-        jar="D:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\build\intermediates\exploded-aar\com.simplyconnectedsystems\leadtoolsDemos\unspecified\classes.jar"
+        jar="/Users/salmankhalid/Documents/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/libs/leadtools.imageprocessing.color.jar"
         jumboMode="false"
-        revision="21.1.2"
-        sha1="49eb6421fafc2e9167c4c189563dc6c1dfc0655c">
-        <dex dex="D:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\build\intermediates\pre-dexed\debug\classes-1bf1d08774cee3620682f863c6000de502187df8.jar" />
+        revision="23.0.2"
+        sha1="be464d0973f37e068b08f6c250bae9950c173631">
+        <dex dex="/Users/salmankhalid/Documents/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/build/intermediates/pre-dexed/simplyconnectedsystems/debug/leadtools.imageprocessing.color-a27495b339df4986b812c7a0877d04993a5d816f.jar" />
     </item>
     <item
-        jar="D:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\libs\leadtools.imageprocessing.core.jar"
+        jar="/Users/salmankhalid/Documents/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/libs/butterknife-7.0.1.jar"
         jumboMode="false"
-        revision="21.1.2"
-        sha1="2dc2b4f36f917b50b868f01434cb3c1dc6542ae7">
-        <dex dex="D:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\build\intermediates\pre-dexed\debug\leadtools.imageprocessing.core-3b56b4c0631d4ccc6a595e22a4aa1d04a9e1ad0c.jar" />
+        revision="23.0.2"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/Users/salmankhalid/Documents/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/build/intermediates/pre-dexed/simplyconnectedsystems/debug/butterknife-7.0.1-100e892a9344e48458ce7307eeee07e28e743d77.jar" />
     </item>
     <item
-        jar="D:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\libs\card.io.jar"
+        jar="/Users/salmankhalid/Documents/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/libs/card.io.jar"
         jumboMode="false"
-        revision="21.1.2"
+        revision="23.0.2"
         sha1="6871955c5f3c7b8488036dd8308225d57b7dabee">
-        <dex dex="D:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\build\intermediates\pre-dexed\debug\card.io-170d107e5c5f9b46b8266c651da27873ed2627d7.jar" />
+        <dex dex="/Users/salmankhalid/Documents/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/build/intermediates/pre-dexed/simplyconnectedsystems/debug/card.io-6e80a9bff2f121920f0541dada3a93dd5f7e790a.jar" />
     </item>
     <item
-        jar="D:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\libs\leadtools.forms.ocr.jar"
+        jar="/Users/salmankhalid/Documents/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/libs/xerces.jar"
         jumboMode="false"
-        revision="21.1.2"
-        sha1="a455767ad559e73f3430f71237ed9d554acf7e1f">
-        <dex dex="D:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\build\intermediates\pre-dexed\debug\leadtools.forms.ocr-9bb71f808af0eaa9ede0df5e9aa4d97e99e8435b.jar" />
+        revision="23.0.2"
+        sha1="214870287756f1890b43451d01c422a8a490bbb1">
+        <dex dex="/Users/salmankhalid/Documents/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/build/intermediates/pre-dexed/simplyconnectedsystems/debug/xerces-29d01c4310f211e5e675d99941e4456b233b553b.jar" />
     </item>
     <item
-        jar="C:\Users\skhalid\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jar="/Users/salmankhalid/Documents/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/libs/leadtools.imageprocessing.effects.jar"
         jumboMode="false"
-        revision="21.1.2"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="D:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\build\intermediates\pre-dexed\debug\library-2.4.0-8a99316b1e8e4b59ad20d5f617a9751557bec55c.jar" />
-    </item>
-    <item
-        jar="D:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\libs\leadtools.imageprocessing.effects.jar"
-        jumboMode="false"
-        revision="21.1.2"
+        revision="23.0.2"
         sha1="bfe5719110d192aff1e835f531f92794dd4239db">
-        <dex dex="D:\AndroidStudioProjects\com.simplyconnectedsystems\comsimplyconnectedsystems\build\intermediates\pre-dexed\debug\leadtools.imageprocessing.effects-df835d4988cd8fadb95c94e25e0dec49b482e881.jar" />
+        <dex dex="/Users/salmankhalid/Documents/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/build/intermediates/pre-dexed/simplyconnectedsystems/debug/leadtools.imageprocessing.effects-f14fb209934a8bb37b71199f075b74fbec298782.jar" />
+    </item>
+    <item
+        jar="/Users/salmankhalid/Documents/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/libs/leadtools.imageprocessing.core.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2dc2b4f36f917b50b868f01434cb3c1dc6542ae7">
+        <dex dex="/Users/salmankhalid/Documents/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/build/intermediates/pre-dexed/simplyconnectedsystems/debug/leadtools.imageprocessing.core-41e191baf27648120269baa9596c1b1434e8bee3.jar" />
+    </item>
+    <item
+        jar="/Users/salmankhalid/Documents/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/libs/leadtools.forms.ocr.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a455767ad559e73f3430f71237ed9d554acf7e1f">
+        <dex dex="/Users/salmankhalid/Documents/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/build/intermediates/pre-dexed/simplyconnectedsystems/debug/leadtools.forms.ocr-c48d6adb80a4b96893f7ec663bf8622886aa35fa.jar" />
+    </item>
+    <item
+        jar="/Users/salmankhalid/Documents/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/salmankhalid/Documents/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/build/intermediates/pre-dexed/simplyconnectedsystems/debug/internal_impl-23.1.1-b261b1061aef0e1ab2c3162b1adf94e370a3b1f6.jar" />
+    </item>
+    <item
+        jar="/Users/salmankhalid/Documents/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/libs/IDT_UniMagSDKAndroid_v4.4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4971f019fd4865cd0fbe0ad7d584eb2d16006949">
+        <dex dex="/Users/salmankhalid/Documents/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/build/intermediates/pre-dexed/simplyconnectedsystems/debug/IDT_UniMagSDKAndroid_v4.4-01046b7965a2896d2fd7a4ea7e48816460077020.jar" />
+    </item>
+    <item
+        jar="/Users/salmankhalid/Documents/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/build/intermediates/exploded-aar/com.simplyconnectedsystems/leadtoolsDemos/unspecified/jars/libs/leadtools.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="904bc47672df39ce92577fcbf9a1ae0542c85b92">
+        <dex dex="/Users/salmankhalid/Documents/AndroidStudioProjects/com.simplyconnectedsystems/comsimplyconnectedsystems/build/intermediates/pre-dexed/simplyconnectedsystems/debug/leadtools-51a77d77c6f0ff2e621d7f96d28a491ecfb24b79.jar" />
     </item>
 
 </items>
